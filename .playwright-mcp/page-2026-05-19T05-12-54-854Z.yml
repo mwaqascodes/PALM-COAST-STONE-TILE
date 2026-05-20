@@ -1,0 +1,632 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Palm Coast Stone & Tile Flagler County · Est. 2006" [ref=e3] [cursor=pointer]:
+      - /url: "#"
+      - img [ref=e4]
+      - generic [ref=e33]:
+        - generic [ref=e34]: Palm Coast Stone & Tile
+        - generic [ref=e35]: Flagler County · Est. 2006
+    - list [ref=e36]:
+      - listitem [ref=e37]:
+        - link "About" [ref=e38] [cursor=pointer]:
+          - /url: "#about"
+      - listitem [ref=e39]:
+        - link "Services" [ref=e40] [cursor=pointer]:
+          - /url: "#services"
+      - listitem [ref=e41]:
+        - link "Portfolio" [ref=e42] [cursor=pointer]:
+          - /url: "#gallery"
+      - listitem [ref=e43]:
+        - link "Pricing" [ref=e44] [cursor=pointer]:
+          - /url: "#booking"
+      - listitem [ref=e45]:
+        - link "FAQ" [ref=e46] [cursor=pointer]:
+          - /url: "#faq"
+      - listitem [ref=e47]:
+        - link "Reviews" [ref=e48] [cursor=pointer]:
+          - /url: "#testimonials"
+      - listitem [ref=e49]:
+        - link "Contact" [ref=e50] [cursor=pointer]:
+          - /url: "#contact"
+    - generic [ref=e51]:
+      - link "📞 (386) 393-1166" [ref=e52] [cursor=pointer]:
+        - /url: tel:3863931166
+      - link "Get Quote" [ref=e53] [cursor=pointer]:
+        - /url: "#contact"
+  - generic [ref=e54]:
+    - img "Beautiful teal tile kitchen by Palm Coast Stone & Tile" [ref=e55]
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e59]: ★ 19+ Years of Expertise
+        - generic [ref=e60]: ✓ FL Licensed
+      - heading "Elegant Tile & Stone Solutions" [level=1] [ref=e61]
+      - paragraph [ref=e62]: Palm Coast Stone & Tile is dedicated to providing innovative and elegant tile and stone solutions for residential and commercial spaces in Flagler County. We specialize in turning ordinary areas into exceptional living spaces.
+      - generic [ref=e63]:
+        - link "Get a Free Quote →" [ref=e64] [cursor=pointer]:
+          - /url: "#contact"
+        - link "📞 (386) 393-1166" [ref=e65] [cursor=pointer]:
+          - /url: tel:3863931166
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - generic [ref=e68]: ⭐
+        - generic [ref=e69]:
+          - generic [ref=e70]:
+            - text: "19"
+            - superscript [ref=e71]: +
+          - generic [ref=e72]: Years Experience
+      - generic [ref=e73]:
+        - generic [ref=e74]: ✓
+        - generic [ref=e75]:
+          - generic [ref=e76]:
+            - text: "200"
+            - superscript [ref=e77]: +
+          - generic [ref=e78]: Projects Done
+      - generic [ref=e79]:
+        - generic [ref=e80]: 🛡
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - text: "100"
+            - superscript [ref=e83]: "%"
+          - generic [ref=e84]: Satisfaction
+  - generic [ref=e85]:
+    - generic [ref=e86]:
+      - generic [ref=e87]: ✓
+      - text: 100% Satisfaction Guarantee
+    - generic [ref=e88]:
+      - generic [ref=e89]: ★
+      - text: 19+ Years of Mastery
+    - generic [ref=e90]:
+      - generic [ref=e91]: ◈
+      - text: 200+ Projects Delivered
+    - generic [ref=e92]:
+      - generic [ref=e93]: ⬡
+      - text: Residential & Commercial
+    - generic [ref=e94]:
+      - generic [ref=e95]: 🛡
+      - text: Florida Licensed & Insured
+  - generic [ref=e98]:
+    - generic [ref=e99]:
+      - generic [ref=e100]: ⭐
+      - generic [ref=e101]:
+        - generic [ref=e102]: Experience
+        - generic [ref=e103]: 19+
+        - generic [ref=e104]: Years in business
+    - generic [ref=e105]:
+      - generic [ref=e106]: ✓
+      - generic [ref=e107]:
+        - generic [ref=e108]: Projects
+        - generic [ref=e109]: 200+
+        - generic [ref=e110]: Completed installations
+    - generic [ref=e111]:
+      - generic [ref=e112]: 🏆
+      - generic [ref=e113]:
+        - generic [ref=e114]: Satisfaction
+        - generic [ref=e115]: 100%
+        - generic [ref=e116]: Client guarantee
+    - generic [ref=e117]:
+      - generic [ref=e118]: 🛡
+      - generic [ref=e119]:
+        - generic [ref=e120]: Licensing
+        - generic [ref=e121]: FL LIC
+        - generic [ref=e122]: Licensed & insured
+  - generic [ref=e125]:
+    - generic [ref=e126]:
+      - img "Palm Coast Stone & Tile — Teal kitchen installation" [ref=e127]
+      - generic [ref=e128]:
+        - generic [ref=e129]: Your Owners
+        - generic [ref=e130]: Jeff & Gina Herbert
+        - generic [ref=e131]: Founders · Palm Coast Stone & Tile · Est. 2006
+    - generic [ref=e132]:
+      - generic [ref=e133]: About Us
+      - heading "Crafting Timeless Spaces Since 2006" [level=2] [ref=e134]
+      - paragraph [ref=e135]: At Palm Coast Stone & Tile, we understand that every space has a unique story waiting to be brought to life. Our team specializes in transforming living areas into functional and timeless spaces, adding a touch of elegance to each corner. We are committed to turning your vision into reality — creating spaces that reflect your individual style and comfort.
+      - paragraph [ref=e136]: With 19 years of experience, Palm Coast Stone & Tile has evolved into a leading tile contracting business known for exceptional craftsmanship and unwavering attention to detail. We're dedicated to transforming spaces with high-quality tile and stone solutions tailored to the Florida lifestyle.
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - heading "🏡 Family-Owned" [level=5] [ref=e139]
+          - paragraph [ref=e140]: Jeff & Gina personally oversee every project from start to finish.
+        - generic [ref=e141]:
+          - heading "⭐ 19+ Years Expertise" [level=5] [ref=e142]
+          - paragraph [ref=e143]: Nearly two decades of hands-on tile & stone mastery in Florida.
+        - generic [ref=e144]:
+          - heading "🌊 Built for Florida" [level=5] [ref=e145]
+          - paragraph [ref=e146]: Moisture-resistant materials and vapor barriers for coastal climates.
+        - generic [ref=e147]:
+          - heading "✓ 100% Satisfaction" [level=5] [ref=e148]
+          - paragraph [ref=e149]: We stand behind every project — your happiness is our guarantee.
+      - generic [ref=e150]:
+        - generic [ref=e151]: J&G
+        - generic [ref=e152]:
+          - generic [ref=e153]: Jeff & Gina Herbert
+          - generic [ref=e154]: Owners & Master Tile Craftspeople · (386) 393-1166 · palmcoasttile@outlook.com
+  - generic [ref=e156]:
+    - generic [ref=e157]:
+      - generic [ref=e158]: Our Services
+      - heading "Expert Solutions for Florida Living" [level=2] [ref=e159]
+      - paragraph [ref=e160]: Precision installation, moisture-resistant materials, and luxury finishes designed for Palm Coast's coastal climate and discerning homeowners.
+    - generic [ref=e161]:
+      - generic [ref=e162]:
+        - generic [ref=e164]: 🪟
+        - generic [ref=e165]: Custom Tile Installation
+        - paragraph [ref=e166]: Expert installation of all tile formats — large-format porcelain slabs, subway patterns, herringbone, and decorative mosaics with pixel-perfect alignment.
+        - generic [ref=e167]:
+          - generic [ref=e168]: Porcelain
+          - generic [ref=e169]: Ceramic
+          - generic [ref=e170]: Subway Tile
+          - generic [ref=e171]: Mosaic
+      - generic [ref=e172]:
+        - generic [ref=e174]: 🚿
+        - generic [ref=e175]: Luxury Bathroom & Walk-In Showers
+        - paragraph [ref=e176]: Complete bathroom transformations — waterproofed shower systems, floor-to-ceiling feature walls, custom niches, and heated floor preparation.
+        - generic [ref=e177]:
+          - generic [ref=e178]: Walk-In Showers
+          - generic [ref=e179]: Waterproofing
+          - generic [ref=e180]: Heated Floors
+      - generic [ref=e181]:
+        - generic [ref=e183]: ◈
+        - generic [ref=e184]: Natural Stone Fabrication
+        - paragraph [ref=e185]: Sourcing and installation of premium stone — Carrara marble, Florida coral stone, travertine, granite, and quartz surfaces cut with artisan precision.
+        - generic [ref=e186]:
+          - generic [ref=e187]: Marble
+          - generic [ref=e188]: Travertine
+          - generic [ref=e189]: Granite
+          - generic [ref=e190]: Quartz
+      - generic [ref=e191]:
+        - generic [ref=e193]: 🍳
+        - generic [ref=e194]: Kitchen Backsplashes & Flooring
+        - paragraph [ref=e195]: Statement kitchen backsplashes, large-format floor tiles, and custom island surrounds. Grease-resistant materials selected for Florida lifestyles.
+        - generic [ref=e196]:
+          - generic [ref=e197]: Backsplashes
+          - generic [ref=e198]: Floor Tile
+          - generic [ref=e199]: Custom Layouts
+      - generic [ref=e200]:
+        - generic [ref=e202]: 🌴
+        - generic [ref=e203]: Outdoor Patios & Pool Surrounds
+        - paragraph [ref=e204]: Slip-resistant travertine and porcelain outdoor installations perfect for Florida's climate. Pool decks, outdoor kitchens, and natural stone pathways.
+        - generic [ref=e205]:
+          - generic [ref=e206]: Travertine
+          - generic [ref=e207]: Pool Decks
+          - generic [ref=e208]: Lanai
+      - generic [ref=e209]:
+        - generic [ref=e211]: ✏️
+        - generic [ref=e212]: Design Consultation
+        - paragraph [ref=e213]: Expert material selection and layout planning. Jeff & Gina guide you through tile formats, patterns, grout colors, and budget-conscious choices.
+        - generic [ref=e214]:
+          - generic [ref=e215]: Material Selection
+          - generic [ref=e216]: Layout Planning
+  - generic [ref=e218]:
+    - generic [ref=e219]:
+      - generic [ref=e220]: Book Online
+      - heading "Transparent Pricing, No Surprises" [level=2] [ref=e221]
+      - paragraph [ref=e222]: Choose a service and book directly. Every project begins with a site visit so we can give you an accurate, detailed estimate.
+    - generic [ref=e223]:
+      - generic [ref=e224]:
+        - generic [ref=e225]: 🏠
+        - generic [ref=e226]: Floor Tiling
+        - generic [ref=e227]: ⏱ 1 hour consultation
+        - generic [ref=e228]: FREE
+        - generic [ref=e229]: Free estimates — always
+        - list [ref=e230]:
+          - listitem [ref=e231]: ✓ On-site space assessment
+          - listitem [ref=e232]: ✓ Material recommendations
+          - listitem [ref=e233]: ✓ Detailed written estimate
+          - listitem [ref=e234]: ✓ Layout & pattern planning
+          - listitem [ref=e235]: ✓ No obligation, no pressure
+        - link "Book Consultation →" [ref=e236] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e237]:
+        - generic [ref=e238]: Most Popular
+        - generic [ref=e239]: 🍳
+        - generic [ref=e240]: Kitchen Tiling
+        - generic [ref=e241]: ⏱ 1 hr 30 min visit
+        - generic [ref=e242]:
+          - superscript: $
+          - text: "250"
+        - generic [ref=e243]: Starting price · Final quote after site visit
+        - list [ref=e244]:
+          - listitem [ref=e245]: ✓ Backsplash design & install
+          - listitem [ref=e246]: ✓ Large-format floor tiles
+          - listitem [ref=e247]: ✓ Grease-resistant materials
+          - listitem [ref=e248]: ✓ Custom layout patterns
+          - listitem [ref=e249]: ✓ Grout & seal included
+        - link "Book Kitchen Consult →" [ref=e250] [cursor=pointer]:
+          - /url: "#contact"
+      - generic [ref=e251]:
+        - generic [ref=e252]: 🚿
+        - generic [ref=e253]: Bathroom Renovation
+        - generic [ref=e254]: ⏱ 2 hour consultation
+        - generic [ref=e255]:
+          - superscript: $
+          - text: "350"
+        - generic [ref=e256]: Starting price · Full scope quoted on-site
+        - list [ref=e257]:
+          - listitem [ref=e258]: ✓ Full bathroom transformation
+          - listitem [ref=e259]: ✓ Walk-in shower waterproofing
+          - listitem [ref=e260]: ✓ Floor-to-ceiling tile walls
+          - listitem [ref=e261]: ✓ Custom niches & features
+          - listitem [ref=e262]: ✓ Heated floor prep available
+        - link "Book Bathroom Consult →" [ref=e263] [cursor=pointer]:
+          - /url: "#contact"
+    - paragraph [ref=e265]:
+      - text: All prices are starting estimates. Final cost depends on project scope, materials, and square footage.
+      - strong [ref=e266]: All estimates are free and no-obligation.
+  - generic [ref=e268]:
+    - generic [ref=e269]:
+      - generic [ref=e270]: Portfolio
+      - heading "Our Work, Up Close" [level=2] [ref=e271]
+      - paragraph [ref=e272]: Real projects completed in Palm Coast and Flagler County — every photo is from an actual Jeff & Gina Herbert installation.
+    - generic [ref=e273]:
+      - generic [ref=e274]:
+        - img "Luxury walk-in shower tile" [ref=e275]
+        - generic [ref=e277]:
+          - text: Luxury Walk-In Shower ·
+          - emphasis [ref=e278]: Palm Coast, FL
+      - generic [ref=e279]:
+        - img "Modern kitchen design" [ref=e280]
+        - generic [ref=e282]:
+          - text: Modern Kitchen ·
+          - emphasis [ref=e283]: Flagler Beach
+      - generic [ref=e284]:
+        - img "Kitchen backsplash tile" [ref=e285]
+        - generic [ref=e287]:
+          - text: Kitchen Backsplash ·
+          - emphasis [ref=e288]: Palm Coast
+      - generic [ref=e289]:
+        - img "Marble bathroom renovation" [ref=e290]
+        - generic [ref=e292]:
+          - text: Marble Bathroom ·
+          - emphasis [ref=e293]: Bunnell
+      - generic [ref=e294]:
+        - img "Natural marble stone floor" [ref=e295]
+        - generic [ref=e297]:
+          - text: Natural Stone Flooring ·
+          - emphasis [ref=e298]: Palm Coast
+      - generic [ref=e299]:
+        - img "Luxury kitchen tile installation" [ref=e300]
+        - generic [ref=e302]:
+          - text: Luxury Kitchen & Flooring ·
+          - emphasis [ref=e303]: Palm Coast
+      - generic [ref=e304]:
+        - img "Bathroom tile renovation" [ref=e305]
+        - generic [ref=e307]:
+          - text: Bathroom Renovation ·
+          - emphasis [ref=e308]: Flagler Beach
+      - generic [ref=e309]:
+        - img "Marble stone floor" [ref=e310]
+        - generic [ref=e312]:
+          - text: Marble Stone Floor ·
+          - emphasis [ref=e313]: Palm Coast
+      - generic [ref=e314]:
+        - img "Modern tile design" [ref=e315]
+        - generic [ref=e317]:
+          - text: Modern Tile Design ·
+          - emphasis [ref=e318]: St. Augustine
+      - generic [ref=e319]:
+        - img "Stone flooring installation" [ref=e320]
+        - generic [ref=e322]:
+          - text: Stone Flooring ·
+          - emphasis [ref=e323]: Flagler County
+      - generic [ref=e324]:
+        - img "Luxury kitchen tile" [ref=e325]
+        - generic [ref=e327]:
+          - text: Luxury Kitchen ·
+          - emphasis [ref=e328]: Ormond Beach
+    - link "Start Your Project →" [ref=e330] [cursor=pointer]:
+      - /url: "#contact"
+  - generic [ref=e332]:
+    - generic [ref=e333]:
+      - generic [ref=e334]: How We Work
+      - heading "From Concept to Flawless Finish" [level=2] [ref=e335]
+      - paragraph [ref=e336]: A transparent, client-focused workflow that ensures precision at every stage — from your first call to the final grout seal.
+    - generic [ref=e337]:
+      - generic [ref=e338]:
+        - generic [ref=e339]: "01"
+        - generic [ref=e340]: Free Consultation
+        - paragraph [ref=e341]: On-site assessment, space measurement, design goal discussion, and honest budget guidance — always free, always no-pressure.
+      - generic [ref=e342]:
+        - generic [ref=e343]: "02"
+        - generic [ref=e344]: Design & Selection
+        - paragraph [ref=e345]: Material sourcing, layout planning, and pattern selection. We present samples so you can visualize the finished result.
+      - generic [ref=e346]:
+        - generic [ref=e347]: "03"
+        - generic [ref=e348]: Prep & Waterproof
+        - paragraph [ref=e349]: Substrate leveling, moisture barrier, and backer board — the critical foundation ensuring durability in Florida's humid climate.
+      - generic [ref=e350]:
+        - generic [ref=e351]: "04"
+        - generic [ref=e352]: Precision Install
+        - paragraph [ref=e353]: Tile and stone laid with laser-leveled precision using premium thin-set and spacers calibrated to the millimeter.
+      - generic [ref=e354]:
+        - generic [ref=e355]: "05"
+        - generic [ref=e356]: Grout & Seal
+        - paragraph [ref=e357]: Premium grout applied, cured, and sealed. Final inspection and client walkthrough before we consider the job complete.
+  - generic [ref=e359]:
+    - generic [ref=e360]:
+      - generic [ref=e361]: Where We Serve
+      - heading "Serving Flagler County & Beyond" [level=2] [ref=e362]
+      - paragraph [ref=e363]: Based in Palm Coast, we serve residential and commercial clients across Flagler County and surrounding North Florida communities.
+    - generic [ref=e364]:
+      - generic [ref=e365]: Palm Coast
+      - generic [ref=e367]: Flagler Beach
+      - generic [ref=e369]: Bunnell
+      - generic [ref=e371]: Beverly Beach
+      - generic [ref=e373]: Marineland
+      - generic [ref=e375]: St. Augustine
+      - generic [ref=e377]: Ormond Beach
+      - generic [ref=e379]: Daytona Beach Area
+  - generic [ref=e384]:
+    - generic [ref=e385]:
+      - generic [ref=e386]: Why Choose Us
+      - heading "Craftsmanship You Can Trust" [level=2] [ref=e387]
+      - paragraph [ref=e388]: A family-owned business built on honest work, precision installation, and genuine care for every client's home since 2006.
+      - generic [ref=e389]:
+        - generic [ref=e390]: 🏡
+        - generic [ref=e391]:
+          - heading "Family-Owned & Operated" [level=4] [ref=e392]
+          - paragraph [ref=e393]: Jeff & Gina personally oversee every project — your home is treated with the same care as their own.
+      - generic [ref=e394]:
+        - generic [ref=e395]: 🔍
+        - generic [ref=e396]:
+          - heading "Zero-Lippage Precision" [level=4] [ref=e397]
+          - paragraph [ref=e398]: Laser-leveled installation and calibrated spacers ensure flawless, flat surfaces on every large-format tile job.
+      - generic [ref=e399]:
+        - generic [ref=e400]: 🌊
+        - generic [ref=e401]:
+          - heading "Built for Florida's Climate" [level=4] [ref=e402]
+          - paragraph [ref=e403]: Moisture-resistant materials, vapor barriers, and mold-resistant grout specified for coastal Florida conditions.
+      - generic [ref=e404]:
+        - generic [ref=e405]: 🛡️
+        - generic [ref=e406]:
+          - heading "100% Satisfaction Guaranteed" [level=4] [ref=e407]
+          - paragraph [ref=e408]: We stand behind every project. If you're not completely satisfied, we make it right — no questions asked.
+    - generic [ref=e409]:
+      - generic [ref=e410]: Our Track Record
+      - generic [ref=e413]:
+        - generic [ref=e414]:
+          - text: "19"
+          - emphasis [ref=e415]: +
+        - generic [ref=e416]: Years of hands-on tile & stone expertise
+      - generic [ref=e419]:
+        - generic [ref=e420]:
+          - text: "200"
+          - emphasis [ref=e421]: +
+        - generic [ref=e422]: Residential & commercial projects completed
+      - generic [ref=e425]:
+        - generic [ref=e426]:
+          - text: "100"
+          - emphasis [ref=e427]: "%"
+        - generic [ref=e428]: Client satisfaction — our unconditional promise
+      - generic [ref=e431]:
+        - generic [ref=e432]: FL Licensed
+        - generic [ref=e433]: Fully licensed & insured in Florida
+      - link "Get Your Free Quote →" [ref=e435] [cursor=pointer]:
+        - /url: "#contact"
+  - generic [ref=e437]:
+    - generic [ref=e438]:
+      - generic [ref=e439]: Client Reviews
+      - heading "Trusted by Palm Coast Homeowners" [level=2] [ref=e440]
+      - paragraph [ref=e441]: Real words from real clients across Flagler County who trusted us with their most important spaces.
+    - generic [ref=e442]:
+      - generic [ref=e443]:
+        - generic [ref=e444]: ★★★★★
+        - paragraph [ref=e445]: "\"Jeff and Gina completely transformed our master bath — the travertine walk-in shower is absolutely breathtaking. Their attention to detail and zero-lippage precision is something you won't find anywhere else in Palm Coast.\""
+        - generic [ref=e446]:
+          - generic [ref=e447]: M
+          - generic [ref=e448]:
+            - generic [ref=e449]: Michelle R.
+            - generic [ref=e450]: Palm Coast, FL — Master Bath Renovation
+      - generic [ref=e451]:
+        - generic [ref=e452]: ★★★★★
+        - paragraph [ref=e453]: "\"Our entire kitchen and pool deck were redone. The large-format porcelain they selected is perfect for Florida — beautiful, durable, and incredibly easy to clean. Professionally managed from day one.\""
+        - generic [ref=e454]:
+          - generic [ref=e455]: D
+          - generic [ref=e456]:
+            - generic [ref=e457]: David & Sarah K.
+            - generic [ref=e458]: Flagler Beach, FL — Kitchen + Pool Deck
+      - generic [ref=e459]:
+        - generic [ref=e460]: ★★★★★
+        - paragraph [ref=e461]: "\"We've hired many contractors over the years — Jeff and Gina are in a different league entirely. Their knowledge of Florida moisture issues and material compatibility alone saved us from costly mistakes.\""
+        - generic [ref=e462]:
+          - generic [ref=e463]: T
+          - generic [ref=e464]:
+            - generic [ref=e465]: Tom B.
+            - generic [ref=e466]: St. Augustine, FL — Full Home Tile
+  - generic [ref=e469]:
+    - generic [ref=e470]:
+      - generic [ref=e471]: FAQ
+      - heading "Frequently Asked Questions" [level=3] [ref=e472]
+      - paragraph [ref=e473]: Everything you need to know before starting your tile or stone project. Still have questions? Jeff & Gina are just a call away.
+      - generic [ref=e474]:
+        - paragraph [ref=e475]: Can't find your answer? Call us directly and we'll walk you through it.
+        - link "📞 (386) 393-1166" [ref=e476] [cursor=pointer]:
+          - /url: tel:3863931166
+    - generic [ref=e477]:
+      - generic [ref=e478]:
+        - button "What areas in Florida do you serve? +" [ref=e479] [cursor=pointer]:
+          - text: What areas in Florida do you serve?
+          - generic [ref=e480]: +
+        - paragraph [ref=e481]: We serve Palm Coast, all of Flagler County, Flagler Beach, Bunnell, Beverly Beach, Marineland, and nearby communities including St. Augustine and the Ormond Beach / Daytona Beach area. Not sure if we cover your location? Give us a call — we're happy to discuss.
+      - generic [ref=e482]:
+        - button "Do you offer free estimates? +" [ref=e483] [cursor=pointer]:
+          - text: Do you offer free estimates?
+          - generic [ref=e484]: +
+        - paragraph [ref=e485]: Yes — floor tiling consultations and estimates are always completely free with no obligation. For kitchen and bathroom projects, we offer a detailed on-site quote visit. We believe in transparent pricing with zero hidden surprises.
+      - generic [ref=e486]:
+        - button "How long does a typical tile project take? +" [ref=e487] [cursor=pointer]:
+          - text: How long does a typical tile project take?
+          - generic [ref=e488]: +
+        - paragraph [ref=e489]: Project timelines vary by scope and square footage. A standard floor tiling consultation takes about 1 hour. Kitchen tiling projects typically run 1–5 days. Full bathroom renovations generally take 3–7 days depending on complexity. We'll give you a precise timeline during your free consultation.
+      - generic [ref=e490]:
+        - button "What types of tile and stone do you work with? +" [ref=e491] [cursor=pointer]:
+          - text: What types of tile and stone do you work with?
+          - generic [ref=e492]: +
+        - paragraph [ref=e493]: We work with all major tile and stone formats — porcelain (including large-format slabs), ceramic, natural marble, travertine, granite, quartz, limestone, slate, and decorative mosaics. We source premium materials from trusted suppliers and can help you select the perfect option for your budget and style.
+      - generic [ref=e494]:
+        - button "Are you licensed and insured in Florida? +" [ref=e495] [cursor=pointer]:
+          - text: Are you licensed and insured in Florida?
+          - generic [ref=e496]: +
+        - paragraph [ref=e497]: Absolutely. Palm Coast Stone & Tile is fully licensed and insured in the State of Florida. Jeff & Gina personally ensure all work meets Florida building codes and standards. You can proceed with complete confidence and peace of mind.
+      - generic [ref=e498]:
+        - button "What's the best tile for Florida's humid climate? +" [ref=e499] [cursor=pointer]:
+          - text: What's the best tile for Florida's humid climate?
+          - generic [ref=e500]: +
+        - paragraph [ref=e501]: For Florida's humidity and coastal conditions, we recommend porcelain or vitrified tiles — they're non-porous, moisture-resistant, and highly durable. For outdoor spaces and pool surrounds, textured slip-resistant finishes are essential. We always specify vapor barriers, waterproofing membranes, and mold-resistant grout as standard practice.
+      - generic [ref=e502]:
+        - button "Can you help me choose the right tile design? +" [ref=e503] [cursor=pointer]:
+          - text: Can you help me choose the right tile design?
+          - generic [ref=e504]: +
+        - paragraph [ref=e505]: Yes — Jeff & Gina offer hands-on design consultation as part of every project. We'll guide you through material selection, layout patterns (herringbone, subway, large-format, mosaic), grout color pairings, and style direction — whether you prefer contemporary, rustic, or timeless elegance. We bring samples so you can see real materials in your space.
+      - generic [ref=e506]:
+        - button "Do you offer a satisfaction guarantee? +" [ref=e507] [cursor=pointer]:
+          - text: Do you offer a satisfaction guarantee?
+          - generic [ref=e508]: +
+        - paragraph [ref=e509]: Yes — 100% satisfaction is our unconditional promise. We've completed over 200 projects and stand behind every single one. If you're not completely satisfied with the finished result, we'll make it right. No questions asked. Your home deserves nothing less than perfection.
+  - generic [ref=e512]:
+    - generic [ref=e513]:
+      - generic [ref=e514]: Get In Touch
+      - heading "Ready to Transform Your Space?" [level=2] [ref=e515]
+      - paragraph [ref=e516]: Start with a free, no-obligation site visit. Jeff & Gina will assess your space and provide a detailed quote.
+      - generic [ref=e517]:
+        - generic [ref=e518]: 📞
+        - generic [ref=e519]:
+          - generic [ref=e520]: Phone
+          - link "(386) 393-1166" [ref=e522] [cursor=pointer]:
+            - /url: tel:3863931166
+      - generic [ref=e523]:
+        - generic [ref=e524]: ✉️
+        - generic [ref=e525]:
+          - generic [ref=e526]: Email
+          - link "palmcoasttile@outlook.com" [ref=e528] [cursor=pointer]:
+            - /url: mailto:palmcoasttile@outlook.com
+      - generic [ref=e529]:
+        - generic [ref=e530]: 🌐
+        - generic [ref=e531]:
+          - generic [ref=e532]: Website
+          - link "coaststonetile.net" [ref=e534] [cursor=pointer]:
+            - /url: https://www.coaststonetile.net
+      - generic [ref=e535]:
+        - generic [ref=e536]: 📍
+        - generic [ref=e537]:
+          - generic [ref=e538]: Location
+          - generic [ref=e539]:
+            - text: Palm Coast, Florida 32164
+            - text: Serving all of Flagler County
+      - generic [ref=e540]:
+        - generic [ref=e541]: Your Personal Contacts
+        - generic [ref=e542]: Jeff & Gina Herbert
+        - generic [ref=e543]: Owners · Palm Coast Stone & Tile · Est. 2006
+    - generic [ref=e544]:
+      - generic [ref=e545]: Request a Free Consultation
+      - generic [ref=e546]: Fill in your details and we'll respond within one business day.
+      - generic [ref=e547]:
+        - generic [ref=e548]:
+          - generic [ref=e549]:
+            - generic [ref=e550]: First Name
+            - textbox "John" [ref=e551]
+          - generic [ref=e552]:
+            - generic [ref=e553]: Last Name
+            - textbox "Smith" [ref=e554]
+          - generic [ref=e555]:
+            - generic [ref=e556]: Phone Number
+            - textbox "(386) 000-0000" [ref=e557]
+          - generic [ref=e558]:
+            - generic [ref=e559]: Email Address
+            - textbox "john@email.com" [ref=e560]
+          - generic [ref=e561]:
+            - generic [ref=e562]: Service Needed
+            - combobox [ref=e563]:
+              - option "Select a service..." [selected]
+              - option "Custom Tile Installation"
+              - option "Luxury Bathroom / Walk-In Shower"
+              - option "Natural Stone Fabrication"
+              - option "Kitchen Backsplash & Flooring"
+              - option "Outdoor Patio / Pool Deck"
+              - option "Design Consultation"
+              - option "Commercial Project"
+              - option "Other"
+          - generic [ref=e564]:
+            - generic [ref=e565]: Project Description
+            - textbox "Describe your project — space, materials, style preferences, timeline..." [ref=e566]
+        - button "Send My Consultation Request →" [ref=e567] [cursor=pointer]
+  - contentinfo [ref=e568]:
+    - generic [ref=e569]:
+      - generic [ref=e570]:
+        - generic [ref=e571]:
+          - generic [ref=e572]:
+            - img [ref=e573]
+            - generic [ref=e586]:
+              - generic [ref=e587]: Palm Coast Stone & Tile
+              - generic [ref=e588]: Flagler County · Est. 2006
+          - paragraph [ref=e589]: Family-owned since 2006, delivering exceptional tile and stone installations throughout Palm Coast and Flagler County, Florida.
+          - link "(386) 393-1166" [ref=e590] [cursor=pointer]:
+            - /url: tel:3863931166
+          - link "palmcoasttile@outlook.com" [ref=e591] [cursor=pointer]:
+            - /url: mailto:palmcoasttile@outlook.com
+        - generic [ref=e592]:
+          - generic [ref=e593]: Services
+          - list [ref=e594]:
+            - listitem [ref=e595]:
+              - link "About Us" [ref=e596] [cursor=pointer]:
+                - /url: "#about"
+            - listitem [ref=e597]:
+              - link "Custom Tile Installation" [ref=e598] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e599]:
+              - link "Luxury Bathrooms" [ref=e600] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e601]:
+              - link "Natural Stone" [ref=e602] [cursor=pointer]:
+                - /url: "#services"
+            - listitem [ref=e603]:
+              - link "Pricing & Booking" [ref=e604] [cursor=pointer]:
+                - /url: "#booking"
+            - listitem [ref=e605]:
+              - link "FAQ" [ref=e606] [cursor=pointer]:
+                - /url: "#faq"
+            - listitem [ref=e607]:
+              - link "Portfolio" [ref=e608] [cursor=pointer]:
+                - /url: "#gallery"
+        - generic [ref=e609]:
+          - generic [ref=e610]: Service Areas
+          - list [ref=e611]:
+            - listitem [ref=e612]:
+              - link "Palm Coast" [ref=e613] [cursor=pointer]:
+                - /url: "#areas"
+            - listitem [ref=e614]:
+              - link "Flagler Beach" [ref=e615] [cursor=pointer]:
+                - /url: "#areas"
+            - listitem [ref=e616]:
+              - link "Bunnell" [ref=e617] [cursor=pointer]:
+                - /url: "#areas"
+            - listitem [ref=e618]:
+              - link "Beverly Beach" [ref=e619] [cursor=pointer]:
+                - /url: "#areas"
+            - listitem [ref=e620]:
+              - link "St. Augustine" [ref=e621] [cursor=pointer]:
+                - /url: "#areas"
+            - listitem [ref=e622]:
+              - link "Ormond Beach" [ref=e623] [cursor=pointer]:
+                - /url: "#areas"
+        - generic [ref=e624]:
+          - generic [ref=e625]: Contact & Legal
+          - list [ref=e626]:
+            - listitem [ref=e627]:
+              - link "(386) 393-1166" [ref=e628] [cursor=pointer]:
+                - /url: tel:3863931166
+            - listitem [ref=e629]:
+              - link "palmcoasttile@outlook.com" [ref=e630] [cursor=pointer]:
+                - /url: mailto:palmcoasttile@outlook.com
+            - listitem [ref=e631]:
+              - link "coaststonetile.net" [ref=e632] [cursor=pointer]:
+                - /url: https://www.coaststonetile.net
+            - listitem [ref=e633]:
+              - link "Palm Coast, FL 32164" [ref=e634] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=e635]: 🛡 FL State Licensed & Insured
+          - generic [ref=e636]:
+            - text: Flagler County Registered
+            - text: Family-Owned Since 2006
+      - generic [ref=e637]:
+        - generic [ref=e638]: © 2025 Palm Coast Stone & Tile — Jeff & Gina Herbert. All rights reserved.
+        - generic [ref=e639]: Palm Coast, Florida 32164
+        - link "(386) 393-1166" [ref=e640] [cursor=pointer]:
+          - /url: tel:3863931166

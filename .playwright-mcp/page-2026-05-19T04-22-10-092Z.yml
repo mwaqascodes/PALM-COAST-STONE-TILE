@@ -1,0 +1,108 @@
+- generic [ref=e3]:
+  - region "top of page"
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - generic [ref=e14]:
+        - generic:
+          - generic:
+            - generic [ref=e19]:
+              - paragraph [ref=e24]:
+                - link "Palm Coast Tile & Stone" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.coaststonetile.net
+              - navigation "Site" [ref=e32]:
+                - list [ref=e33]:
+                  - listitem [ref=e34]:
+                    - link "About Us" [ref=e36] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/about-us
+                      - generic [ref=e38]: About Us
+                  - listitem [ref=e39]:
+                    - link "Let's Talk" [ref=e41] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net
+                      - generic [ref=e43]: Let's Talk
+                  - listitem [ref=e44]:
+                    - link "FAQ" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/faq
+                      - generic [ref=e48]: FAQ
+                  - listitem [ref=e49]:
+                    - link "Portfolio" [ref=e51] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/portfolio
+                      - generic [ref=e53]: Portfolio
+                  - listitem [ref=e54]:
+                    - link "Book Online" [ref=e56] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/book-online
+                      - generic [ref=e58]: Book Online
+                  - listitem [ref=e59]:
+                    - link "Blog" [ref=e61] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/blog
+                      - generic [ref=e63]: Blog
+            - button [ref=e67] [cursor=pointer]:
+              - img [ref=e69]
+    - main [ref=e72]:
+      - generic [ref=e92]:
+        - heading "My Portfolio" [level=1] [ref=e97]
+        - paragraph [ref=e101]: Welcome to my portfolio. Here you’ll find a selection of my work. Explore my projects to learn more about what I do.
+        - region [ref=e107]:
+          - generic [ref=e109]:
+            - link "Project Title Project Title Project Title":
+              - /url: https://www.coaststonetile.net/portfolio-collections/my-portfolio/project-title-6
+              - generic [ref=e110] [cursor=pointer]:
+                - link "Project Title"
+                - generic [ref=e113]:
+                  - img "Project Title" [ref=e114]
+                  - img "Project Title" [ref=e115]
+            - link "Project Title Project Title Project Title":
+              - /url: https://www.coaststonetile.net/portfolio-collections/my-portfolio/project-title-5
+              - generic [ref=e118] [cursor=pointer]:
+                - link "Project Title"
+                - generic [ref=e121]:
+                  - img "Project Title" [ref=e122]
+                  - img "Project Title" [ref=e123]
+            - link "Project Title Project Title Project Title":
+              - /url: https://www.coaststonetile.net/portfolio-collections/my-portfolio/project-title-1
+              - generic [ref=e126] [cursor=pointer]:
+                - link "Project Title"
+                - generic [ref=e129]:
+                  - img "Project Title" [ref=e130]
+                  - img "Project Title" [ref=e131]
+            - link "Project Title Project Title Project Title":
+              - /url: https://www.coaststonetile.net/portfolio-collections/my-portfolio/project-title-3
+              - generic [ref=e134] [cursor=pointer]:
+                - link "Project Title"
+                - generic [ref=e137]:
+                  - img "Project Title" [ref=e138]
+                  - img "Project Title" [ref=e139]
+            - link:
+              - /url: https://www.coaststonetile.net/portfolio-collections/my-portfolio/project-title-2
+            - link:
+              - /url: https://www.coaststonetile.net/portfolio-collections/my-portfolio/project-title-4
+    - contentinfo [ref=e142]:
+      - generic [ref=e148]:
+        - generic:
+          - generic:
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - img "Digital art exhibit" [ref=e159]
+                - generic:
+                  - generic:
+                    - paragraph [ref=e160]:
+                      - link "PALM COAST TILE & STONE" [ref=e162] [cursor=pointer]:
+                        - /url: https://www.coaststonetile.net
+                    - paragraph [ref=e163]: 386-393-1166
+                    - paragraph [ref=e164]: Palm Coast Fla. 32164
+                    - paragraph [ref=e165]:
+                      - link "palmcoasttile@outlook.com" [ref=e167] [cursor=pointer]:
+                        - /url: https://www.twitter.com/wix
+                    - paragraph [ref=e168]: coaststonetile.com
+              - generic [ref=e169]:
+                - img "Leaf Pattern Design" [ref=e174]
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph [ref=e175]: Jeff & Gina Herbert (386)-393-1166
+                      - paragraph [ref=e176]
+            - paragraph [ref=e186]:
+              - generic [ref=e187]:
+                - text: © 2035 by M. Giordano. Powered and secured by
+                - link "Wix" [ref=e189] [cursor=pointer]:
+                  - /url: https://manage.wix.com/account/websites?referralAdditionalInfo=Route
+  - region "bottom of page"

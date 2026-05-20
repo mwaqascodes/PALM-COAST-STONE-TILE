@@ -1,0 +1,7 @@
+[     360ms] [WARNING] Unrecognized feature: 'vr'. @ https://www.coaststonetile.net/faq:1594
+[    3101ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://static.parastorage.com/services/faq-ooi/1.614.0/FaqOoiViewerWidgetNoCss.bundle.min.js:0
+[    3152ms] [WARNING] react-i18next:: It seems you are still using the old wait option, you may migrate to the new useSuspense behaviour. @ https://static.parastorage.com/services/form-app/1.2692.0/FormViewerWidgetNoCss.bundle.min.js:3
+[    8088ms] [WARNING] [2026-05-19T04:11:41.917Z]  @firebase/app-compat: 
+    Warning: Firebase is already defined in the global scope. Please make sure
+    Firebase library is only loaded once.
+   @ https://static.parastorage.com/services/chat-widget/8d4a2fc95c0fe3b7e452aaf1310aa743f39abd2f2a5f96cae98dcab1/chat-sdk.chunk.min.js:3342

@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palm Coast Stone &amp; Tile — Premier Tile &amp; Stone Installation | Flagler County, FL</title>
+  <meta name="description" content="Palm Coast's premier tile and stone installation specialists. Luxury bathrooms, travertine patios, custom stone fabrication. Serving Flagler County for 19+ years. Call (386) 393-1166.">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Jost:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* ─── RESET ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Jost', sans-serif; background: #fff; color: #3d3028; overflow-x: hidden; line-height: 1.6; }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+
+    /* ─── TOKENS ─── */
+    :root {
+      --pr:     #e85520;
+      --pr-dk:  #c03a10;
+      --pr-lt:  rgba(232,85,32,0.08);
+      --dark:   #1a1a1a;
+      --text:   #222222;
+      --text-m: #555555;
+      --text-l: #909090;
+      --bg:     #ffffff;
+      --bg-lt:  #f6f6f4;
+      --border: #e4e4e0;
+      --gold:   #f06820;
+      --green:  #1d8a5e;
+      --r: 4px; --rl: 8px; --rx: 12px;
+    }
+
+    /* ─── LAYOUT ─── */
+    .wrap { max-width: 1280px; margin: 0 auto; padding: 0 48px; }
+    section { padding: 80px 0; }
+
+    /* ─── TOP BAR ─── */
+    .topbar { background: var(--dark); padding: 9px 0; }
+    .topbar .wrap { display: flex; align-items: center; justify-content: space-between; }
+    .tb-left { font-size: 12px; font-weight: 500; color: rgba(255,255,255,0.7); letter-spacing: 0.04em; }
+    .tb-left strong { color: var(--gold); }
+    .tb-right { display: flex; gap: 24px; align-items: center; }
+    .tb-right a { font-family: 'Oswald', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(255,255,255,0.5); transition: color 0.2s; }
+    .tb-right a:hover { color: var(--gold); }
+    .tb-sep { color: rgba(255,255,255,0.2); font-size: 10px; }
+
+    /* ─── SITE HEADER ─── */
+    .site-header { background: #fff; border-bottom: 1px solid var(--border); padding: 18px 0; }
+    .site-header .wrap { display: flex; align-items: center; gap: 32px; }
+    .logo-wrap { display: flex; align-items: center; gap: 12px; flex-shrink: 0; }
+    .logo-name { font-family: 'Oswald', sans-serif; font-size: 20px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--dark); }
+    .logo-tag  { font-size: 9px; font-weight: 500; letter-spacing: 0.28em; text-transform: uppercase; color: var(--pr); margin-top: 2px; }
+    .header-info { display: flex; gap: 40px; margin-left: auto; }
+    .hi-item { display: flex; align-items: center; gap: 12px; }
+    .hi-ico { width: 40px; height: 40px; border-radius: 50%; background: var(--pr-lt); border: 1px solid rgba(232,85,32,0.2); display: flex; align-items: center; justify-content: center; font-size: 16px; color: var(--pr); flex-shrink: 0; }
+    .hi-lbl { font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.2em; color: var(--text-l); margin-bottom: 2px; }
+    .hi-val  { font-size: 13.5px; font-weight: 600; color: var(--dark); }
+    .btn-book { margin-left: 24px; flex-shrink: 0; display: inline-flex; align-items: center; background: transparent; border: 2px solid var(--pr); color: var(--pr); font-family: 'Oswald', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; padding: 11px 26px; border-radius: var(--r); cursor: pointer; transition: all 0.22s; }
+    .btn-book:hover { background: var(--pr); color: #fff; }
+
+    /* ─── NAV ─── */
+    nav { background: var(--bg-lt); border-bottom: 1px solid var(--border); position: sticky; top: 0; z-index: 999; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+    nav .wrap { display: flex; align-items: center; justify-content: space-between; }
+    .nav-ul { display: flex; list-style: none; }
+    .nav-ul li a { display: block; font-family: 'Oswald', sans-serif; font-size: 12.5px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--text); padding: 17px 20px; transition: all 0.2s; }
+    .nav-ul li a:hover, .nav-ul li.active a { background: var(--pr); color: #fff; }
+    .nav-phone { font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 600; color: var(--pr); padding: 17px 0; display: flex; align-items: center; gap: 6px; }
+
+    /* ─── HERO ─── */
+    #hero { position: relative; height: 720px; overflow: hidden; }
+    .hero-img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 38%; }
+    .hero-overlay { position: absolute; inset: 0; background: linear-gradient(95deg, rgba(8,4,1,0.82) 0%, rgba(8,4,1,0.6) 55%, rgba(8,4,1,0.22) 100%); }
+    .hero-content { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; padding: 0 80px; max-width: 680px; padding-bottom: 80px; }
+    .hero-sub { font-family: 'Jost', sans-serif; font-size: 13px; font-weight: 500; letter-spacing: 0.25em; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+    .hero-h1 { font-family: 'Oswald', sans-serif; font-size: clamp(36px, 5vw, 68px); font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #fff; line-height: 1.04; margin-bottom: 20px; }
+    .hero-p { font-size: 14.5px; font-weight: 300; color: rgba(255,255,255,0.8); line-height: 1.78; margin-bottom: 34px; max-width: 460px; }
+    .hero-actions { display: flex; gap: 14px; flex-wrap: wrap; }
+
+    .btn-hero-pr { display: inline-flex; align-items: center; gap: 8px; background: var(--pr); color: #fff; font-family: 'Oswald', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; padding: 14px 30px; border-radius: var(--r); border: 2px solid var(--pr); cursor: pointer; transition: all 0.22s; }
+    .btn-hero-pr:hover { background: var(--pr-dk); border-color: var(--pr-dk); }
+    .btn-hero-out { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: #fff; font-family: 'Oswald', sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; padding: 14px 30px; border-radius: var(--r); border: 2px solid rgba(255,255,255,0.65); cursor: pointer; transition: all 0.22s; }
+    .btn-hero-out:hover { border-color: #fff; background: rgba(255,255,255,0.1); }
+
+    /* Hero stats bar */
+    .hero-statsbar { position: absolute; bottom: 0; left: 0; right: 0; background: var(--pr); display: grid; grid-template-columns: repeat(4,1fr); }
+    .hsb { display: flex; align-items: center; gap: 16px; padding: 20px 32px; border-right: 1px solid rgba(255,255,255,0.15); }
+    .hsb:last-child { border-right: none; }
+    .hsb-ico { width: 38px; height: 38px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,0.13); border-radius: 50%; }
+    .hsb-num { font-family: 'Oswald', sans-serif; font-size: 26px; font-weight: 700; color: #fff; line-height: 1; }
+    .hsb-num sup { font-size: 14px; color: rgba(255,255,255,0.72); }
+    .hsb-lbl { font-size: 10px; font-weight: 500; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.7); margin-top: 3px; }
+
+    /* ─── COMMON ELEMENTS ─── */
+    .eyebrow { display: inline-flex; align-items: center; gap: 10px; font-family: 'Oswald', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--pr); margin-bottom: 10px; }
+    .eyebrow::before, .eyebrow::after { content: ''; width: 22px; height: 2px; background: var(--pr); }
+
+    .h2 { font-family: 'Oswald', sans-serif; font-size: clamp(26px, 2.8vw, 40px); font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: var(--dark); line-height: 1.1; }
+    .h3 { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 600; color: var(--dark); }
+    .body { font-size: 15px; color: var(--text-m); line-height: 1.82; font-weight: 400; }
+    .sec-head { text-align: center; max-width: 660px; margin: 0 auto 52px; }
+    .sec-head .h2 { margin-bottom: 12px; }
+
+    .btn-pr { display: inline-flex; align-items: center; gap: 8px; background: var(--pr); color: #fff; font-family: 'Oswald', sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; padding: 13px 28px; border-radius: var(--r); border: 2px solid var(--pr); cursor: pointer; transition: all 0.22s; }
+    .btn-pr:hover { background: var(--pr-dk); border-color: var(--pr-dk); transform: translateY(-2px); }
+    .btn-out { display: inline-flex; align-items: center; gap: 8px; background: transparent; color: var(--pr); font-family: 'Oswald', sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; padding: 13px 28px; border-radius: var(--r); border: 2px solid var(--pr); cursor: pointer; transition: all 0.22s; }
+    .btn-out:hover { background: var(--pr); color: #fff; transform: translateY(-2px); }
+    .btn-out-white { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.9); font-family: 'Oswald', sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; padding: 13px 28px; border-radius: var(--r); border: 2px solid rgba(255,255,255,0.5); cursor: pointer; transition: all 0.22s; }
+    .btn-out-white:hover { background: rgba(255,255,255,0.2); border-color: rgba(255,255,255,0.85); }
+
+    /* Badges */
+    .badge { display: inline-flex; align-items: center; gap: 4px; padding: 4px 11px; border-radius: 40px; font-size: 10.5px; font-weight: 600; font-family: 'Jost', sans-serif; letter-spacing: 0.06em; border: 1px solid; }
+    .badge-pr    { background: rgba(232,85,32,0.08); color: var(--pr); border-color: rgba(232,85,32,0.28); }
+    .badge-slate { background: rgba(61,48,40,0.07); color: var(--text-m); border-color: rgba(61,48,40,0.14); }
+    .badge-green { background: rgba(29,138,94,0.1); color: var(--green); border-color: rgba(29,138,94,0.24); }
+
+    /* Icon boxes */
+    .ico-box { width: 44px; height: 44px; border-radius: 8px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; }
+    .ico-pr  { background: var(--pr-lt); color: var(--pr); border: 1px solid rgba(232,85,32,0.2); }
+
+    /* ─── TRUST STRIP ─── */
+    .trust-strip { background: var(--bg-lt); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 16px 0; }
+    .trust-inner { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; }
+    .ti { display: flex; align-items: center; gap: 8px; font-family: 'Jost', sans-serif; font-size: 11.5px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--text-m); padding: 5px 28px; }
+    .ti + .ti { border-left: 1px solid var(--border); }
+    .ti svg { flex-shrink: 0; color: var(--pr); }
+    .ti-ic { color: var(--pr); font-size: 13px; }
+
+    /* ─── DARK STATS ─── */
+    .dark-stats { background: var(--dark); padding: 80px 0; }
+    .ds-eyebrow { text-align: center; font-family: 'Oswald', sans-serif; font-size: 11px; font-weight: 500; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); margin-bottom: 48px; }
+    .ds-grid { display: grid; grid-template-columns: repeat(4,1fr); border: 1px solid rgba(255,255,255,0.07); border-radius: 6px; overflow: hidden; }
+    .ds-item { padding: 48px 28px; text-align: center; border-right: 1px solid rgba(255,255,255,0.07); }
+    .ds-item:last-child { border-right: none; }
+    .ds-num { font-family: 'Oswald', sans-serif; font-size: 64px; font-weight: 700; color: #fff; line-height: 1; letter-spacing: -0.01em; margin-bottom: 10px; }
+    .ds-num em { color: var(--pr); font-style: normal; font-size: 32px; vertical-align: top; margin-top: 8px; display: inline-block; }
+    .ds-lbl { font-family: 'Jost', sans-serif; font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.26em; color: rgba(255,255,255,0.42); }
+
+    /* ─── ABOUT ─── */
+    #about { background: #fff; }
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 72px; align-items: center; }
+    .about-img-wrap { position: relative; }
+    .about-img-wrap img { width: 100%; height: 520px; object-fit: cover; border-radius: var(--rx); box-shadow: 0 16px 48px rgba(0,0,0,0.18); }
+    .about-img-badge { position: absolute; bottom: 24px; right: -20px; background: var(--pr); padding: 22px 26px; border-radius: var(--r); box-shadow: 0 8px 32px rgba(232,85,32,0.4); }
+    .aib-num { font-family: 'Oswald', sans-serif; font-size: 44px; font-weight: 700; color: #fff; line-height: 1; }
+    .aib-lbl { font-size: 11px; font-weight: 500; letter-spacing: 0.2em; text-transform: uppercase; color: rgba(255,255,255,0.78); margin-top: 4px; }
+    .about-body { font-size: 15px; color: var(--text-m); line-height: 1.85; margin-bottom: 20px; }
+    .about-values { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 26px 0; }
+    .av-item { background: var(--bg-lt); border: 1px solid var(--border); border-left: 3px solid var(--pr); border-radius: var(--r); padding: 16px; transition: all 0.22s; }
+    .av-item:hover { border-left-color: var(--pr-dk); box-shadow: 0 4px 16px rgba(232,85,32,0.1); }
+    .av-item h5 { font-family: 'Oswald', sans-serif; font-size: 14px; font-weight: 600; color: var(--dark); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .av-item p { font-size: 12.5px; color: var(--text-m); line-height: 1.65; }
+    .about-signature { display: flex; align-items: center; gap: 14px; margin-top: 22px; padding: 18px 20px; background: var(--bg-lt); border: 1px solid var(--border); border-left: 3px solid var(--pr); border-radius: var(--r); }
+    .sig-av { width: 50px; height: 50px; border-radius: 50%; background: linear-gradient(135deg, var(--pr), var(--pr-dk)); display: flex; align-items: center; justify-content: center; font-family: 'Oswald', sans-serif; font-size: 17px; font-weight: 700; color: #fff; flex-shrink: 0; }
+    .sig-name { font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: 700; color: var(--dark); text-transform: uppercase; letter-spacing: 0.04em; }
+    .sig-role { font-size: 11px; color: var(--text-l); margin-top: 2px; }
+
+    /* ─── SERVICES ─── */
+    #services { background: var(--bg-lt); }
+    .svc-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
+    .svc-card { background: #fff; border: 1px solid var(--border); border-radius: var(--rl); overflow: hidden; transition: all 0.3s; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+    .svc-card:hover { box-shadow: 0 8px 40px rgba(0,0,0,0.13); transform: translateY(-5px); border-color: rgba(232,85,32,0.25); }
+    .svc-card-img-wrap { height: 210px; overflow: hidden; }
+    .svc-card-img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; display: block; }
+    .svc-card:hover .svc-card-img { transform: scale(1.06); }
+    .svc-card-body { padding: 22px 24px 26px; }
+    .svc-ico { width: 46px; height: 46px; border-radius: var(--r); background: var(--pr-lt); border: 1px solid rgba(232,85,32,0.18); display: flex; align-items: center; justify-content: center; margin-bottom: 13px; color: var(--pr); }
+    .svc-name { font-family: 'Oswald', sans-serif; font-size: 17px; font-weight: 600; color: var(--dark); margin-bottom: 9px; text-transform: uppercase; letter-spacing: 0.04em; }
+    .svc-body { font-size: 13px; color: var(--text-m); line-height: 1.75; margin-bottom: 14px; }
+    .svc-link { font-family: 'Oswald', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.18em; text-transform: uppercase; color: var(--pr); display: flex; align-items: center; gap: 6px; transition: gap 0.2s; }
+    .svc-link:hover { gap: 10px; }
+    .svc-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 14px; }
+
+    /* ─── GALLERY ─── */
+    #gallery { background: #fff; }
+    .gallery-bento { display: grid; grid-template-columns: repeat(3,1fr); grid-auto-rows: 245px; gap: 12px; }
+    .gi { border-radius: var(--rl); overflow: hidden; position: relative; cursor: zoom-in; box-shadow: 0 2px 12px rgba(0,0,0,0.1); }
+    .gi img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; display: block; }
+    .gi:hover img { transform: scale(1.06); }
+    .gi-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(26,18,8,0.8) 0%, transparent 55%); opacity: 0; transition: opacity 0.3s; display: flex; align-items: flex-end; padding: 18px; }
+    .gi:hover .gi-overlay { opacity: 1; }
+    .gi-label { font-family: 'Oswald', sans-serif; font-size: 13px; font-weight: 600; color: #fff; letter-spacing: 0.05em; text-transform: uppercase; }
+    .gi-label em { color: var(--gold); font-style: normal; }
+    .gi-c2 { grid-column: span 2; }
+    .gi-tall { grid-row: span 2; }
+    .lb { display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.92); align-items:center; justify-content:center; cursor:zoom-out; }
+    .lb.open { display:flex; }
+    .lb img { max-width:92vw; max-height:90vh; object-fit:contain; border-radius:8px; }
+    .lb-x { position:absolute; top:24px; right:32px; width:40px; height:40px; background:rgba(255,255,255,0.12); border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:18px; color:#fff; cursor:pointer; }
+
+    /* ─── PROCESS ─── */
+    #process { background: var(--bg-lt); }
+    .proc-grid { display: grid; grid-template-columns: repeat(5,1fr); gap: 22px; position: relative; }
+    .proc-grid::before { content:''; position:absolute; top:36px; left:10%; right:10%; height:2px; background: linear-gradient(90deg, transparent, var(--pr) 20%, var(--pr) 80%, transparent); }
+    .ps { text-align: center; position: relative; z-index: 1; }
+    .ps-num { width: 72px; height: 72px; margin: 0 auto 18px; background: var(--pr); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; color: #fff; box-shadow: 0 4px 20px rgba(232,85,32,0.35); transition: all 0.28s; }
+    .ps:hover .ps-num { background: var(--pr-dk); transform: scale(1.1); }
+    .ps-name { font-family: 'Oswald', sans-serif; font-size: 14px; font-weight: 600; color: var(--dark); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .ps-body { font-size: 12px; color: var(--text-m); line-height: 1.7; }
+
+    /* ─── AREAS ─── */
+    #areas { background: #fff; }
+    .areas-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 12px; }
+    .area-pill { display: flex; align-items: center; gap: 9px; background: var(--bg-lt); border: 1px solid var(--border); border-radius: var(--r); padding: 13px 18px; font-size: 13px; font-weight: 500; color: var(--text); transition: all 0.22s; }
+    .area-pill:hover { border-color: var(--pr); background: var(--pr-lt); color: var(--pr); }
+    .area-dot { width: 6px; height: 6px; border-radius: 50%; background: var(--pr); flex-shrink: 0; }
+
+    /* ─── WHY US ─── */
+    #whyus { background: var(--bg-lt); }
+    .why-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+    .why-point { display: flex; gap: 14px; align-items: flex-start; padding: 16px 0; border-bottom: 1px solid var(--border); }
+    .why-point:last-child { border-bottom: none; }
+    .why-txt h4 { font-family: 'Oswald', sans-serif; font-size: 15px; font-weight: 600; color: var(--dark); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .why-txt p  { font-size: 13px; color: var(--text-m); line-height: 1.68; }
+    .kpi-panel { background: var(--dark); border-radius: var(--rx); padding: 42px; box-shadow: 0 16px 64px rgba(0,0,0,0.22); }
+    .kpi-row { padding: 18px 0; border-bottom: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; gap: 18px; }
+    .kpi-row:first-child { padding-top: 0; }
+    .kpi-row:last-child { border-bottom: none; padding-bottom: 0; }
+    .kpi-n { font-family: 'Oswald', sans-serif; font-size: 46px; font-weight: 700; color: #fff; line-height: 1; }
+    .kpi-n em { font-family: 'Jost', sans-serif; font-size: 20px; color: var(--pr); font-style: normal; vertical-align: top; margin-top: 10px; display: inline-block; }
+    .kpi-l { font-size: 12px; font-weight: 300; color: rgba(255,255,255,0.52); line-height: 1.52; }
+    .kpi-bar { width: 3px; height: 38px; background: var(--pr); flex-shrink: 0; border-radius: 2px; }
+
+    /* ─── TESTIMONIALS ─── */
+    #testimonials { background: #fff; }
+    .test-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 22px; }
+    .tc { background: var(--bg-lt); border: 1px solid var(--border); border-radius: var(--rl); padding: 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.04); transition: all 0.3s; display: flex; flex-direction: column; }
+    .tc:hover { box-shadow: 0 8px 40px rgba(0,0,0,0.1); transform: translateY(-4px); border-color: rgba(232,85,32,0.22); }
+    .tc-stars { color: var(--pr); font-size: 13px; letter-spacing: 3px; margin-bottom: 14px; }
+    .tc-body { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-style: italic; color: var(--text-m); line-height: 1.75; flex: 1; margin-bottom: 20px; }
+    .tc-auth { display: flex; align-items: center; gap: 12px; padding-top: 16px; border-top: 1px solid var(--border); }
+    .tc-av { width: 44px; height: 44px; border-radius: 50%; background: linear-gradient(135deg, var(--pr), var(--pr-dk)); display: flex; align-items: center; justify-content: center; font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; color: #fff; flex-shrink: 0; }
+    .tc-name { font-family: 'Oswald', sans-serif; font-size: 15px; font-weight: 600; color: var(--dark); text-transform: uppercase; letter-spacing: 0.04em; }
+    .tc-sub  { font-size: 11px; color: var(--text-l); margin-top: 2px; }
+
+    /* ─── PRICING ─── */
+    #booking { background: var(--bg-lt); }
+    .price-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 22px; }
+    .price-card { background: #fff; border: 1px solid var(--border); border-radius: var(--rl); padding: 40px 32px 36px; text-align: center; box-shadow: 0 2px 10px rgba(0,0,0,0.05); transition: all 0.3s; position: relative; overflow: hidden; }
+    .price-card:hover { box-shadow: 0 10px 44px rgba(0,0,0,0.13); transform: translateY(-5px); border-color: var(--pr); }
+    .price-card.featured { border-color: var(--pr); box-shadow: 0 6px 32px rgba(232,85,32,0.16); }
+    .price-card.featured:hover { box-shadow: 0 14px 56px rgba(232,85,32,0.22); }
+    .pc-badge { position: absolute; top: 0; right: 0; background: var(--pr); color: #fff; font-family: 'Oswald', sans-serif; font-size: 10px; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; padding: 8px 18px; border-bottom-left-radius: 10px; }
+    .pc-ico { width: 62px; height: 62px; border-radius: var(--rl); margin: 0 auto 20px; display: flex; align-items: center; justify-content: center; background: var(--pr-lt); border: 1px solid rgba(232,85,32,0.2); color: var(--pr); }
+    .pc-name { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; color: var(--dark); margin-bottom: 5px; text-transform: uppercase; letter-spacing: 0.04em; }
+    .pc-time { font-size: 10.5px; font-weight: 500; letter-spacing: 0.15em; text-transform: uppercase; color: var(--text-l); margin-bottom: 22px; display: flex; align-items: center; justify-content: center; gap: 5px; }
+    .pc-time svg { color: var(--pr); }
+    .pc-price { font-family: 'Oswald', sans-serif; font-size: 54px; font-weight: 700; color: var(--dark); line-height: 1; margin-bottom: 4px; }
+    .pc-price sup { font-size: 22px; color: var(--pr); vertical-align: top; margin-top: 12px; display: inline-block; }
+    .pc-free { font-family: 'Oswald', sans-serif; font-size: 40px; font-weight: 700; color: var(--green); margin-bottom: 4px; }
+    .pc-sub { font-size: 11.5px; color: var(--text-l); margin-bottom: 24px; }
+    .pc-list { list-style: none; text-align: left; margin-bottom: 28px; display: flex; flex-direction: column; gap: 9px; }
+    .pc-list li { font-size: 13px; color: var(--text-m); display: flex; align-items: flex-start; gap: 9px; line-height: 1.55; }
+    .pc-list li::before { content: '✓'; color: var(--pr); font-weight: 700; font-size: 12px; flex-shrink: 0; margin-top: 1px; }
+
+    /* ─── FAQ ─── */
+    #faq { background: #fff; }
+    .faq-layout { display: grid; grid-template-columns: 1fr 2fr; gap: 72px; align-items: start; }
+    .faq-sidebar h3 { font-family: 'Oswald', sans-serif; font-size: clamp(22px, 2.4vw, 32px); font-weight: 700; color: var(--dark); text-transform: uppercase; line-height: 1.15; margin-bottom: 12px; }
+    .faq-sidebar p { font-size: 14px; color: var(--text-m); line-height: 1.78; margin-bottom: 24px; }
+    .faq-cta { background: var(--pr-lt); border: 1px solid rgba(232,85,32,0.2); border-left: 3px solid var(--pr); border-radius: var(--r); padding: 20px; }
+    .faq-cta p { font-size: 13px; color: var(--text-m); margin-bottom: 14px; }
+    .faq-item { border-bottom: 1px solid var(--border); }
+    .faq-item:first-child { border-top: 1px solid var(--border); }
+    .faq-q { width: 100%; background: none; border: none; text-align: left; cursor: pointer; padding: 18px 0; display: flex; align-items: center; justify-content: space-between; gap: 14px; font-family: 'Oswald', sans-serif; font-size: 16px; font-weight: 600; color: var(--dark); text-transform: uppercase; letter-spacing: 0.04em; transition: color 0.2s; }
+    .faq-q:hover, .faq-q.open { color: var(--pr); }
+    .faq-icon { width: 28px; height: 28px; border-radius: 50%; background: var(--pr-lt); border: 1px solid rgba(232,85,32,0.22); display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--pr); transition: all 0.26s; font-size: 16px; }
+    .faq-q.open .faq-icon { background: var(--pr); color: #fff; transform: rotate(45deg); }
+    .faq-a { max-height: 0; overflow: hidden; transition: max-height 0.4s ease, padding 0.3s ease; }
+    .faq-a.open { max-height: 600px; padding-bottom: 18px; }
+    .faq-a p { font-size: 14px; color: var(--text-m); line-height: 1.8; }
+
+    /* ─── CONTACT ─── */
+    #contact { background: var(--bg-lt); }
+    .contact-grid { display: grid; grid-template-columns: 1fr 1.6fr; gap: 60px; align-items: start; }
+    .cdet { display: flex; gap: 14px; align-items: flex-start; padding: 16px 0; border-bottom: 1px solid var(--border); }
+    .cdet:last-of-type { border-bottom: none; }
+    .cdet-lbl { font-family: 'Oswald', sans-serif; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.26em; color: var(--pr); margin-bottom: 3px; }
+    .cdet-val { font-size: 14px; font-weight: 500; color: var(--dark); line-height: 1.5; }
+    .cdet-val a:hover { color: var(--pr); }
+    .owners-badge { margin-top: 24px; padding: 20px 22px; background: var(--pr-lt); border: 1px solid rgba(232,85,32,0.22); border-left: 3px solid var(--pr); border-radius: var(--r); }
+    .ob-lbl { font-family: 'Oswald', sans-serif; font-size: 9px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3em; color: var(--pr); margin-bottom: 6px; }
+    .ob-name { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 700; color: var(--dark); }
+    .ob-title { font-size: 12px; color: var(--text-m); margin-top: 2px; }
+    .form-panel { background: #fff; border: 1px solid var(--border); border-radius: var(--rx); padding: 40px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); }
+    .fgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin-bottom: 14px; }
+    .ff { display: flex; flex-direction: column; gap: 6px; }
+    .ff.full { grid-column: 1/-1; }
+    .ff label { font-family: 'Oswald', sans-serif; font-size: 9.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.22em; color: var(--pr); }
+    .ff input, .ff textarea, .ff select { background: var(--bg-lt); border: 1px solid var(--border); border-radius: var(--r); padding: 11px 14px; font-family: 'Jost', sans-serif; font-size: 14px; color: var(--dark); outline: none; transition: all 0.2s; -webkit-appearance: none; }
+    .ff input::placeholder, .ff textarea::placeholder { color: var(--text-l); }
+    .ff input:focus, .ff textarea:focus, .ff select:focus { border-color: var(--pr); box-shadow: 0 0 0 3px rgba(232,85,32,0.1); background: #fff; }
+    .ff select option { background: #fff; color: var(--dark); }
+    .ff textarea { resize: vertical; min-height: 100px; }
+
+    /* ─── FOOTER ─── */
+    footer { background: var(--dark); color: rgba(255,255,255,0.6); padding: 60px 0 28px; border-top: 3px solid var(--pr); }
+    .foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 48px; margin-bottom: 44px; }
+    .foot-col-h { font-family: 'Oswald', sans-serif; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.28em; color: var(--pr); margin-bottom: 18px; }
+    .foot-ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+    .foot-ul a { font-size: 13px; font-weight: 300; color: rgba(255,255,255,0.42); transition: color 0.2s; }
+    .foot-ul a:hover { color: var(--pr); }
+    .foot-bottom { border-top: 1px solid rgba(255,255,255,0.07); padding-top: 24px; display: flex; align-items: center; justify-content: space-between; }
+    .foot-lic { display: inline-flex; align-items: center; gap: 6px; background: rgba(232,85,32,0.14); border: 1px solid rgba(232,85,32,0.28); border-radius: var(--r); padding: 6px 14px; font-family: 'Oswald', sans-serif; font-size: 11px; font-weight: 600; letter-spacing: 0.1em; color: var(--pr); text-transform: uppercase; }
+
+    /* ─── DIVIDER ─── */
+    .amber-divider { height: 3px; background: var(--pr); }
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp { from{opacity:0;transform:translateY(28px)} to{opacity:1;transform:translateY(0)} }
+    .ha1{opacity:0;animation:fadeUp 0.8s ease 0.05s forwards}
+    .ha2{opacity:0;animation:fadeUp 0.8s ease 0.18s forwards}
+    .ha3{opacity:0;animation:fadeUp 0.8s ease 0.3s forwards}
+    .reveal{opacity:0;transform:translateY(26px);transition:opacity 0.6s ease,transform 0.6s ease}
+    .reveal.in{opacity:1;transform:translateY(0)}
+
+    /* ─── RESPONSIVE ─── */
+    @media(max-width:1200px){.ds-grid{grid-template-columns:repeat(2,1fr)}.svc-grid{grid-template-columns:repeat(2,1fr)}.foot-grid{grid-template-columns:1fr 1fr;gap:30px}.about-grid{gap:48px}.faq-layout{gap:48px}.hero-statsbar{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:1024px){.wrap{padding:0 24px}.hero-content{padding:0 40px;padding-bottom:80px}.contact-grid{grid-template-columns:1fr;gap:36px}.why-grid{grid-template-columns:1fr}.proc-grid{grid-template-columns:repeat(3,1fr)}.proc-grid::before{display:none}.about-grid{grid-template-columns:1fr}.faq-layout{grid-template-columns:1fr}.about-img-wrap img{height:360px}.header-info{display:none}.about-img-badge{right:0}}
+    @media(max-width:768px){.nav-ul li a{padding:14px 13px;font-size:11px}.wrap{padding:0 20px}section{padding:56px 0}.svc-grid{grid-template-columns:1fr}.test-grid{grid-template-columns:1fr}.proc-grid{grid-template-columns:1fr 1fr}.areas-grid{grid-template-columns:repeat(2,1fr)}.fgrid{grid-template-columns:1fr}.foot-grid{grid-template-columns:1fr}.foot-bottom{flex-direction:column;gap:12px;text-align:center}.trust-inner{flex-direction:column}.ti+.ti{border-left:none;border-top:1px solid var(--border);width:100%;justify-content:center}.gallery-bento{grid-template-columns:repeat(2,1fr);grid-auto-rows:200px}.gi-c2{grid-column:span 2}.gi-tall{grid-row:span 1}.price-grid{grid-template-columns:1fr}.about-values{grid-template-columns:1fr}.hero-statsbar{grid-template-columns:1fr 1fr}.tb-right{display:none}.btn-book{display:none}}
+    @media(max-width:480px){.gallery-bento{grid-template-columns:1fr}.proc-grid{grid-template-columns:1fr}.areas-grid{grid-template-columns:1fr}.ds-grid{grid-template-columns:repeat(2,1fr)}.form-panel{padding:22px 18px}.hero-content{padding:0 20px;padding-bottom:80px}}
+  </style>
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <div class="wrap">
+    <!-- LOGO -->
+    <a href="#" class="nav-logo" style="display:flex;align-items:center;gap:11px;text-decoration:none;flex-shrink:0;padding:8px 0;">
+      <svg width="46" height="50" viewBox="0 0 200 215" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="brickGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#d92517"/>
+            <stop offset="48%" stop-color="#f06820"/>
+            <stop offset="100%" stop-color="#f7c520"/>
+          </linearGradient>
+          <linearGradient id="stoneGrad" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#c0c8d0"/>
+            <stop offset="100%" stop-color="#a8b2bc"/>
+          </linearGradient>
+          <clipPath id="brickClip"><polygon points="10,52 100,18 100,192 10,226"/></clipPath>
+          <clipPath id="stoneClip"><polygon points="100,18 190,52 190,226 100,192"/></clipPath>
+        </defs>
+        <!-- Left face: brick gradient -->
+        <polygon points="10,52 100,18 100,192 10,226" fill="url(#brickGrad)"/>
+        <!-- Brick mortar lines -->
+        <g clip-path="url(#brickClip)" stroke="rgba(255,255,255,0.48)" stroke-width="3" fill="none">
+          <line x1="0" y1="68" x2="110" y2="52"/><line x1="0" y1="100" x2="110" y2="84"/>
+          <line x1="0" y1="132" x2="110" y2="116"/><line x1="0" y1="164" x2="110" y2="148"/>
+          <line x1="0" y1="196" x2="110" y2="180"/>
+          <line x1="38" y1="52" x2="36" y2="84"/><line x1="72" y1="44" x2="70" y2="76"/>
+          <line x1="22" y1="84" x2="20" y2="116"/><line x1="56" y1="76" x2="54" y2="108"/><line x1="86" y1="69" x2="84" y2="101"/>
+          <line x1="38" y1="116" x2="36" y2="148"/><line x1="70" y1="108" x2="68" y2="140"/>
+          <line x1="28" y1="148" x2="26" y2="180"/><line x1="62" y1="140" x2="60" y2="172"/><line x1="90" y1="133" x2="88" y2="165"/>
+        </g>
+        <!-- Right face: stone gray -->
+        <polygon points="100,18 190,52 190,226 100,192" fill="url(#stoneGrad)"/>
+        <!-- Stone shapes -->
+        <g clip-path="url(#stoneClip)" fill="#8c9ca8" stroke="#c5d0d8" stroke-width="1.5">
+          <ellipse cx="136" cy="58" rx="22" ry="13"/>
+          <ellipse cx="168" cy="72" rx="16" ry="11"/>
+          <ellipse cx="148" cy="88" rx="20" ry="12"/>
+          <ellipse cx="122" cy="82" rx="14" ry="10"/>
+          <ellipse cx="164" cy="108" rx="18" ry="12"/>
+          <ellipse cx="136" cy="118" rx="17" ry="11"/>
+          <ellipse cx="158" cy="140" rx="20" ry="12"/>
+          <ellipse cx="124" cy="148" rx="16" ry="10"/>
+          <ellipse cx="176" cy="152" rx="12" ry="9"/>
+          <ellipse cx="144" cy="172" rx="18" ry="11"/>
+          <ellipse cx="168" cy="184" rx="15" ry="10"/>
+          <ellipse cx="118" cy="178" rx="14" ry="9"/>
+        </g>
+        <!-- Top ridge -->
+        <polygon points="10,52 100,18 190,52 100,86" fill="rgba(255,255,255,0.13)" stroke="rgba(255,255,255,0.22)" stroke-width="1"/>
+        <!-- Center seam -->
+        <line x1="100" y1="18" x2="100" y2="192" stroke="rgba(255,255,255,0.42)" stroke-width="2"/>
+      </svg>
+      <div style="line-height:1.2;">
+        <div style="font-family:'Oswald',sans-serif;font-size:17px;font-weight:700;letter-spacing:0.05em;text-transform:uppercase;"><span style="color:#4a4a4a;">PALM </span><span style="background:linear-gradient(90deg,#d92517,#f06820);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">COAST</span></div>
+        <div style="font-family:'Oswald',sans-serif;font-size:9px;font-weight:500;letter-spacing:0.28em;text-transform:uppercase;color:#888;margin-top:1px;">TILE &amp; STONE</div>
+      </div>
+    </a>
+    <ul class="nav-ul">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Portfolio</a></li>
+      <li><a href="#booking">Pricing</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="tel:3863931166" class="nav-phone"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.06 2.18 2 2 0 012.06 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg> (386) 393-1166</a>
+  </div>
+</nav>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <img class="hero-img"
+    src="https://static.wixstatic.com/media/88aac0_747bcb4164584d49a4825af82a194689~mv2.jpeg/v1/fill/w_1920,h_1080,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/88aac0_747bcb4164584d49a4825af82a194689~mv2.jpeg"
+    alt="Beautiful tile installation by Palm Coast Stone &amp; Tile">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-sub ha1">The Best Tile &amp; Stone Service in Flagler County</div>
+    <h1 class="hero-h1 ha2">Beautiful Tile<br>Makes Your Home<br>Awesome</h1>
+    <p class="hero-p ha3">Since 2006, Jeff &amp; Gina Herbert have transformed 200+ homes across Palm Coast and Flagler County — from travertine pool surrounds to floor-to-ceiling marble walk-in showers. Florida-licensed, satisfaction guaranteed.</p>
+    <div class="hero-actions ha3">
+      <a href="#contact" class="btn-hero-pr">Get Started Now →</a>
+      <a href="#services" class="btn-hero-out">Learn More</a>
+    </div>
+  </div>
+  <!-- Stats bar at hero bottom -->
+  <div class="hero-statsbar">
+    <div class="hsb">
+      <div class="hsb-ico">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+      </div>
+      <div>
+        <div class="hsb-num">19<sup>+</sup></div>
+        <div class="hsb-lbl">Years Experience</div>
+      </div>
+    </div>
+    <div class="hsb">
+      <div class="hsb-ico">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      </div>
+      <div>
+        <div class="hsb-num">200<sup>+</sup></div>
+        <div class="hsb-lbl">Projects Completed</div>
+      </div>
+    </div>
+    <div class="hsb">
+      <div class="hsb-ico">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+      </div>
+      <div>
+        <div class="hsb-num">100<sup>%</sup></div>
+        <div class="hsb-lbl">Satisfaction Rate</div>
+      </div>
+    </div>
+    <div class="hsb">
+      <div class="hsb-ico">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+      </div>
+      <div>
+        <div class="hsb-num">FL</div>
+        <div class="hsb-lbl">Licensed &amp; Insured</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TRUST STRIP ═══ -->
+<div class="trust-strip reveal">
+  <div class="trust-inner">
+    <div class="ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 100% Satisfaction Guarantee</div>
+    <div class="ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 19+ Years of Mastery</div>
+    <div class="ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg> 200+ Projects Delivered</div>
+    <div class="ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg> Residential &amp; Commercial</div>
+    <div class="ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Florida Licensed &amp; Insured</div>
+    <div class="ti"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg> Built for Florida's Climate</div>
+  </div>
+</div>
+
+<!-- ═══ DARK STATS ═══ -->
+<div class="dark-stats reveal">
+  <div class="wrap">
+    <div class="ds-eyebrow">Our Track Record — Est. 2006</div>
+    <div class="ds-grid">
+      <div class="ds-item">
+        <div class="ds-num">19<em>+</em></div>
+        <div class="ds-lbl">Years in Flagler County</div>
+      </div>
+      <div class="ds-item">
+        <div class="ds-num">200<em>+</em></div>
+        <div class="ds-lbl">Projects Completed</div>
+      </div>
+      <div class="ds-item">
+        <div class="ds-num">100<em>%</em></div>
+        <div class="ds-lbl">Satisfaction Guaranteed</div>
+      </div>
+      <div class="ds-item">
+        <div class="ds-num">FL</div>
+        <div class="ds-lbl">State Licensed &amp; Insured</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══ ABOUT US ═══ -->
+<section id="about">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <img src="https://static.wixstatic.com/media/88aac0_747bcb4164584d49a4825af82a194689~mv2.jpeg/v1/fill/w_900,h_1100,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/88aac0_747bcb4164584d49a4825af82a194689~mv2.jpeg"
+          alt="Palm Coast Stone &amp; Tile — Teal kitchen installation" loading="lazy">
+        <div class="about-img-badge">
+          <div class="aib-num">19<sup style="font-size:24px; color:rgba(255,255,255,0.72);">+</sup></div>
+          <div class="aib-lbl">Years of Excellence</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="eyebrow">About Us</div>
+        <h2 class="h2" style="margin-bottom:16px;">Bring Shine to Your Home <span style="color:var(--pr);">Floor &amp; Tile Forever</span></h2>
+        <p class="about-body">Jeff &amp; Gina Herbert founded Palm Coast Stone &amp; Tile in 2006 with a simple belief: every home deserves craftsmanship that lasts a lifetime. What began as a passion for precision tile work in Flagler County has grown into one of North Florida's most trusted stone and tile operations — built entirely on referrals, repeat clients, and a reputation for getting every detail right the first time.</p>
+        <p class="about-body">Living and working on Florida's Atlantic coast, Jeff &amp; Gina understand the unique demands of our climate — the salt air, the humidity, the summer heat that tests every material. They specify vapor barriers as standard, source only vitrified porcelain and sealed natural stone for exterior applications, and never cut corners.</p>
+        <div class="about-values">
+          <div class="av-item">
+            <h5>Family-Owned</h5>
+            <p>Jeff &amp; Gina personally oversee every project — you'll never deal with a sub-contractor who doesn't know your vision.</p>
+          </div>
+          <div class="av-item">
+            <h5>19+ Years of Mastery</h5>
+            <p>Nearly two decades of hands-on tile &amp; stone expertise across hundreds of Florida homes and commercial spaces.</p>
+          </div>
+          <div class="av-item">
+            <h5>Florida Climate Specialists</h5>
+            <p>Vapor barriers, waterproofing membranes, and mold-resistant grout are standard on every project.</p>
+          </div>
+          <div class="av-item">
+            <h5>Unconditional Guarantee</h5>
+            <p>200+ projects and counting. If you're not completely satisfied, we make it right — no questions asked.</p>
+          </div>
+        </div>
+        <div class="about-signature">
+          <div class="sig-av">J&amp;G</div>
+          <div>
+            <div class="sig-name">Jeff &amp; Gina Herbert</div>
+            <div class="sig-role">Owners &amp; Master Tile Craftspeople · (386) 393-1166 · palmcoasttile@outlook.com</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SERVICES ═══ -->
+<section id="services">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow" style="justify-content:center;">Our Services</div>
+      <h2 class="h2" style="margin-bottom:12px;">Expert Solutions for <span style="color:var(--pr);">Florida Living</span></h2>
+      <p class="body">From rectified porcelain slabs to hand-cut travertine — precision installation, Florida-grade moisture protection, and luxury finishes tailored to Palm Coast's coastal climate.</p>
+    </div>
+    <div class="svc-grid">
+      <div class="svc-card reveal">
+        <div class="svc-card-img-wrap"><img class="svc-card-img" src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&h=400&fit=crop&q=85&auto=format" alt="Custom Tile Installation" loading="lazy"></div>
+        <div class="svc-card-body">
+          <div class="svc-ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></div>
+          <div class="svc-name">Custom Tile Installation</div>
+          <p class="svc-body">Expert installation of every tile format — large-format rectified porcelain slabs, classic subway patterns, herringbone, chevron, and artisan mosaics — all set with laser-leveled precision and zero-lippage accuracy.</p>
+          <div class="svc-tags">
+            <span class="badge badge-pr">Rectified Porcelain</span>
+            <span class="badge badge-slate">Ceramic</span>
+            <span class="badge badge-slate">Herringbone</span>
+            <span class="badge badge-slate">Mosaic</span>
+          </div>
+          <a href="#contact" class="svc-link">Learn More →</a>
+        </div>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-card-img-wrap"><img class="svc-card-img" src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&h=400&fit=crop&q=85&auto=format" alt="Luxury Bathroom" loading="lazy"></div>
+        <div class="svc-card-body">
+          <div class="svc-ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M4 12V6a2 2 0 014 0v1"/><rect x="2" y="12" width="20" height="4" rx="1"/><path d="M6 20v-4M18 20v-4"/></svg></div>
+          <div class="svc-name">Luxury Bathroom &amp; Walk-In Showers</div>
+          <p class="svc-body">Complete bathroom transformations — fully waterproofed with membrane barriers before a single tile is set. Feature walls, frameless shower niches, bench seats, and radiant heated floor preparation.</p>
+          <div class="svc-tags">
+            <span class="badge badge-pr">Walk-In Showers</span>
+            <span class="badge badge-slate">Waterproof Membranes</span>
+            <span class="badge badge-green">Heated Floors</span>
+          </div>
+          <a href="#contact" class="svc-link">Learn More →</a>
+        </div>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-card-img-wrap"><img class="svc-card-img" src="https://images.unsplash.com/photo-1523251836828-b75d28b89804?w=600&h=400&fit=crop&q=85&auto=format" alt="Natural Stone" loading="lazy"></div>
+        <div class="svc-card-body">
+          <div class="svc-ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5"/><line x1="12" y1="2" x2="12" y2="22"/><line x1="2" y1="8.5" x2="22" y2="8.5"/><line x1="2" y1="15.5" x2="22" y2="15.5"/></svg></div>
+          <div class="svc-name">Natural Stone Fabrication</div>
+          <p class="svc-body">Premium natural stone — Carrara and Calacatta marble, travertine, tumbled limestone, granite, slate, and engineered quartz — each cut, fitted, and sealed with artisan-level precision for Florida's climate.</p>
+          <div class="svc-tags">
+            <span class="badge badge-pr">Marble</span>
+            <span class="badge badge-slate">Travertine</span>
+            <span class="badge badge-slate">Granite</span>
+            <span class="badge badge-green">Limestone</span>
+          </div>
+          <a href="#contact" class="svc-link">Learn More →</a>
+        </div>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-card-img-wrap"><img class="svc-card-img" src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=600&h=400&fit=crop&q=85&auto=format" alt="Kitchen Backsplash" loading="lazy"></div>
+        <div class="svc-card-body">
+          <div class="svc-ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg></div>
+          <div class="svc-name">Kitchen Backsplashes &amp; Flooring</div>
+          <p class="svc-body">Transform your kitchen with a statement backsplash, large-format porcelain floors, or a custom island surround. Jeff &amp; Gina select grease-resistant, easy-clean materials specifically suited to Florida's open-plan kitchen lifestyle.</p>
+          <div class="svc-tags">
+            <span class="badge badge-pr">Backsplashes</span>
+            <span class="badge badge-slate">Large-Format Floors</span>
+            <span class="badge badge-slate">Island Surrounds</span>
+          </div>
+          <a href="#contact" class="svc-link">Learn More →</a>
+        </div>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-card-img-wrap"><img class="svc-card-img" src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&q=85&auto=format" alt="Outdoor Patios" loading="lazy"></div>
+        <div class="svc-card-body">
+          <div class="svc-ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></div>
+          <div class="svc-name">Outdoor Patios &amp; Pool Surrounds</div>
+          <p class="svc-body">We install slip-resistant brushed travertine and textured porcelain for pool decks, lanais, and outdoor kitchen surrounds. All outdoor materials rated for UV stability and Florida coastal conditions.</p>
+          <div class="svc-tags">
+            <span class="badge badge-pr">Travertine</span>
+            <span class="badge badge-slate">Pool Decks</span>
+            <span class="badge badge-green">Lanai &amp; Porch</span>
+            <span class="badge badge-slate">Outdoor Kitchens</span>
+          </div>
+          <a href="#contact" class="svc-link">Learn More →</a>
+        </div>
+      </div>
+      <div class="svc-card reveal">
+        <div class="svc-card-img-wrap"><img class="svc-card-img" src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?w=600&h=400&fit=crop&q=85&auto=format" alt="Design Consultation" loading="lazy"></div>
+        <div class="svc-card-body">
+          <div class="svc-ico"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg></div>
+          <div class="svc-name">Design Consultation</div>
+          <p class="svc-body">Jeff &amp; Gina bring material samples to your home and walk you through every decision — tile format, layout patterns, grout color pairings, finish options, and budget planning. Included with every project.</p>
+          <div class="svc-tags">
+            <span class="badge badge-pr">Material Selection</span>
+            <span class="badge badge-slate">Layout Planning</span>
+            <span class="badge badge-slate">Budget Guidance</span>
+          </div>
+          <a href="#contact" class="svc-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ GALLERY ═══ -->
+<section id="gallery" style="background:var(--bg-lt);">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow" style="justify-content:center;">Portfolio</div>
+      <h2 class="h2" style="margin-bottom:12px;">Our Work, <span style="color:var(--pr);">Up Close</span></h2>
+      <p class="body">Browse our portfolio of luxury tile, natural stone, marble, and custom installation work across Palm Coast, Flagler Beach, and surrounding North Florida communities.</p>
+    </div>
+    <div class="gallery-bento reveal">
+      <div class="gi gi-c2" data-src="https://images.unsplash.com/photo-1560448075-bb485b067938?w=1600&h=900&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1560448075-bb485b067938?w=1000&h=245&fit=crop&q=85&auto=format" alt="Luxury walk-in shower tile" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Luxury Walk-In Shower · <em>Palm Coast, FL</em></div></div>
+      </div>
+      <div class="gi gi-tall" data-src="https://images.unsplash.com/photo-1613545564235-db7af30081bf?w=900&h=1200&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1613545564235-db7af30081bf?w=500&h=504&fit=crop&q=85&auto=format" alt="Modern kitchen design" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Modern Kitchen · <em>Flagler Beach</em></div></div>
+      </div>
+      <div class="gi" data-src="https://images.unsplash.com/photo-1665507279638-5b48073c637b?w=1200&h=750&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1665507279638-5b48073c637b?w=500&h=245&fit=crop&q=85&auto=format" alt="Kitchen backsplash tile" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Kitchen Backsplash · <em>Palm Coast</em></div></div>
+      </div>
+      <div class="gi" data-src="https://images.unsplash.com/photo-1609280069865-62f178e2c237?w=1200&h=750&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1609280069865-62f178e2c237?w=500&h=245&fit=crop&q=85&auto=format" alt="Marble bathroom" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Marble Bathroom · <em>Bunnell</em></div></div>
+      </div>
+      <div class="gi gi-tall" data-src="https://images.unsplash.com/photo-1523251836828-b75d28b89804?w=900&h=1200&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1523251836828-b75d28b89804?w=500&h=504&fit=crop&q=85&auto=format" alt="Natural stone floor" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Natural Stone · <em>Palm Coast</em></div></div>
+      </div>
+      <div class="gi gi-c2" data-src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=1600&h=900&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?w=1000&h=245&fit=crop&q=85&auto=format" alt="Luxury kitchen tile" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Luxury Kitchen &amp; Flooring · <em>Palm Coast</em></div></div>
+      </div>
+      <div class="gi" data-src="https://images.unsplash.com/photo-1613849925362-38fb4c16ff36?w=1200&h=750&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1613849925362-38fb4c16ff36?w=500&h=245&fit=crop&q=85&auto=format" alt="Bathroom tile renovation" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Bathroom Renovation · <em>Flagler Beach</em></div></div>
+      </div>
+      <div class="gi" data-src="https://images.unsplash.com/photo-1694376329556-cf1ba3610960?w=1200&h=750&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1694376329556-cf1ba3610960?w=500&h=245&fit=crop&q=85&auto=format" alt="Marble stone floor" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Marble Stone Floor · <em>Palm Coast</em></div></div>
+      </div>
+      <div class="gi" data-src="https://images.unsplash.com/photo-1609946860441-a51ffcf22208?w=1200&h=750&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1609946860441-a51ffcf22208?w=500&h=245&fit=crop&q=85&auto=format" alt="Modern tile design" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Modern Tile Design · <em>St. Augustine</em></div></div>
+      </div>
+      <div class="gi" data-src="https://images.unsplash.com/photo-1521811638546-64c3e3ece9d1?w=1200&h=750&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1521811638546-64c3e3ece9d1?w=500&h=245&fit=crop&q=85&auto=format" alt="Stone flooring" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Stone Flooring · <em>Flagler County</em></div></div>
+      </div>
+      <div class="gi" data-src="https://images.unsplash.com/photo-1682888818620-94875adf5bb9?w=1200&h=750&fit=crop&q=90&auto=format">
+        <img src="https://images.unsplash.com/photo-1682888818620-94875adf5bb9?w=500&h=245&fit=crop&q=85&auto=format" alt="Luxury kitchen" loading="lazy">
+        <div class="gi-overlay"><div class="gi-label">Luxury Kitchen · <em>Ormond Beach</em></div></div>
+      </div>
+    </div>
+    <div class="reveal" style="text-align:center; margin-top:32px;">
+      <a href="#contact" class="btn-pr">Start Your Project →</a>
+    </div>
+  </div>
+</section>
+
+<!-- Lightbox -->
+<div class="lb" id="lb" onclick="closeLb()">
+  <div class="lb-x" onclick="closeLb()">✕</div>
+  <img id="lb-img" src="" alt="">
+</div>
+
+<!-- ═══ PROCESS ═══ -->
+<section id="process">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow" style="justify-content:center;">How We Work</div>
+      <h2 class="h2" style="margin-bottom:12px;">From Concept to <span style="color:var(--pr);">Flawless Finish</span></h2>
+      <p class="body">A transparent, client-focused workflow that ensures precision at every stage — no surprises, no rushed installs, no subcontractors. Jeff or Gina are on-site from your first call to the final sealed grout line.</p>
+    </div>
+    <div class="proc-grid reveal">
+      <div class="ps">
+        <div class="ps-num">01</div>
+        <div class="ps-name">Free Consultation</div>
+        <p class="ps-body">Jeff or Gina visits your home for a full on-site assessment — space measurement, design goal discussion, and transparent budget guidance. Always free, always no-pressure.</p>
+      </div>
+      <div class="ps">
+        <div class="ps-num">02</div>
+        <div class="ps-name">Design &amp; Selection</div>
+        <p class="ps-body">We bring physical tile and stone samples directly to your space so you can see real materials under your lighting. Layout patterns, grout pairings, and finish options are mapped before any ordering begins.</p>
+      </div>
+      <div class="ps">
+        <div class="ps-num">03</div>
+        <div class="ps-name">Prep &amp; Waterproof</div>
+        <p class="ps-body">The step most contractors skip — and the reason tiles crack and grout fails. We level substrates, install waterproofing membranes, and cement backer board before any tile is touched.</p>
+      </div>
+      <div class="ps">
+        <div class="ps-num">04</div>
+        <div class="ps-name">Precision Install</div>
+        <p class="ps-body">Tile and stone set with laser-leveled alignment, calibrated tile spacers, and premium polymer-modified thin-set. Large-format tiles receive back-buttering for zero hollow spots.</p>
+      </div>
+      <div class="ps">
+        <div class="ps-num">05</div>
+        <div class="ps-name">Grout, Seal &amp; Walkthrough</div>
+        <p class="ps-body">Mold-resistant, color-fast grout is applied, cured 24–48 hours, and sealed with penetrating stone sealer. We walk you through every inch of the finished space before calling the job done.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SERVICE AREAS ═══ -->
+<section id="areas" style="background:var(--bg-lt);">
+  <div class="wrap">
+    <div class="reveal" style="max-width:600px; margin-bottom:40px;">
+      <div class="eyebrow">Where We Serve</div>
+      <h2 class="h2" style="margin-bottom:10px;">Serving <span style="color:var(--pr);">Flagler County</span> &amp; Beyond</h2>
+      <p class="body">Based in Palm Coast, we serve residential and commercial clients across Flagler County and surrounding North Florida communities.</p>
+    </div>
+    <div class="areas-grid reveal">
+      <div class="area-pill"><span class="area-dot"></span> Palm Coast</div>
+      <div class="area-pill"><span class="area-dot"></span> Flagler Beach</div>
+      <div class="area-pill"><span class="area-dot"></span> Bunnell</div>
+      <div class="area-pill"><span class="area-dot"></span> Beverly Beach</div>
+      <div class="area-pill"><span class="area-dot"></span> Marineland</div>
+      <div class="area-pill"><span class="area-dot"></span> St. Augustine</div>
+      <div class="area-pill"><span class="area-dot"></span> Ormond Beach</div>
+      <div class="area-pill"><span class="area-dot"></span> Daytona Beach Area</div>
+    </div>
+  </div>
+</section>
+
+<div class="amber-divider"></div>
+
+<!-- ═══ WHY US ═══ -->
+<section id="whyus">
+  <div class="wrap">
+    <div class="why-grid">
+      <div class="reveal">
+        <div class="eyebrow">Why Choose Us</div>
+        <h2 class="h2" style="margin-bottom:10px;">Craftsmanship You Can <span style="color:var(--pr);">Trust</span></h2>
+        <p class="body" style="margin-bottom:28px;">A family-owned business built on honest work, precision installation, and genuine care for every client's home since 2006. In 19 years, our most powerful marketing has always been the same: a finished project so beautiful that neighbors ask who did the work.</p>
+        <div class="why-point">
+          <div class="ico-box ico-pr"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <div class="why-txt">
+            <h4>Family-Owned &amp; Operated</h4>
+            <p>Jeff &amp; Gina personally oversee every project — your home is treated with the same care as their own.</p>
+          </div>
+        </div>
+        <div class="why-point">
+          <div class="ico-box ico-pr"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></div>
+          <div class="why-txt">
+            <h4>Zero-Lippage Precision</h4>
+            <p>Laser-leveled installation and calibrated spacers ensure flawless, flat surfaces on every large-format tile job.</p>
+          </div>
+        </div>
+        <div class="why-point">
+          <div class="ico-box ico-pr"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0 3 2 4.5 0"/><path d="M2 17c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0 3 2 4.5 0"/><path d="M2 7c1.5-2 3-2 4.5 0s3 2 4.5 0 3-2 4.5 0 3 2 4.5 0"/></svg></div>
+          <div class="why-txt">
+            <h4>Built for Florida's Climate</h4>
+            <p>Moisture-resistant materials, vapor barriers, and mold-resistant grout specified for coastal Florida conditions.</p>
+          </div>
+        </div>
+        <div class="why-point">
+          <div class="ico-box ico-pr"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><polyline points="9 12 11 14 15 10"/></svg></div>
+          <div class="why-txt">
+            <h4>100% Satisfaction Guaranteed</h4>
+            <p>We stand behind every project. If you're not completely satisfied, we make it right — no questions asked.</p>
+          </div>
+        </div>
+        <div class="why-point">
+          <div class="ico-box ico-pr"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg></div>
+          <div class="why-txt">
+            <h4>Referral-Built Reputation</h4>
+            <p>Over 200 projects completed and the majority of new clients come from referrals — the only endorsement that truly matters.</p>
+          </div>
+        </div>
+      </div>
+      <div class="kpi-panel reveal">
+        <div style="font-family:'Oswald',sans-serif; font-size:10px; font-weight:500; letter-spacing:0.3em; text-transform:uppercase; color:var(--pr); margin-bottom:24px;">Our Track Record — Est. 2006</div>
+        <div class="kpi-row">
+          <div class="kpi-bar"></div>
+          <div><div class="kpi-n">19<em>+</em></div><div class="kpi-l">Years of hands-on tile &amp; stone expertise in Flagler County</div></div>
+        </div>
+        <div class="kpi-row">
+          <div class="kpi-bar"></div>
+          <div><div class="kpi-n">200<em>+</em></div><div class="kpi-l">Residential &amp; commercial projects across North Florida</div></div>
+        </div>
+        <div class="kpi-row">
+          <div class="kpi-bar"></div>
+          <div><div class="kpi-n">100<em>%</em></div><div class="kpi-l">Client satisfaction — our unconditional promise on every project</div></div>
+        </div>
+        <div class="kpi-row">
+          <div class="kpi-bar"></div>
+          <div>
+            <div class="kpi-n" style="font-size:28px;">FL LICENSED</div>
+            <div class="kpi-l" style="margin-top:4px;">State licensed, bonded &amp; insured — verified and current</div>
+          </div>
+        </div>
+        <div style="margin-top:24px; padding-top:22px; border-top:1px solid rgba(255,255,255,0.08);">
+          <a href="#contact" class="btn-pr" style="width:100%; justify-content:center;">Get Your Free Quote →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TESTIMONIALS ═══ -->
+<section id="testimonials">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow" style="justify-content:center;">Client Reviews</div>
+      <h2 class="h2" style="margin-bottom:12px;">Trusted by <span style="color:var(--pr);">Palm Coast</span> Homeowners</h2>
+      <p class="body">Real words from real clients across Flagler County and North Florida who trusted Jeff &amp; Gina with their most important spaces.</p>
+    </div>
+    <div class="test-grid">
+      <div class="tc reveal">
+        <div class="tc-stars">★★★★★</div>
+        <p class="tc-body">"Jeff and Gina completely transformed our master bath — the floor-to-ceiling travertine walk-in shower is absolutely breathtaking. They waterproofed everything before laying a single tile, and two years later it looks as perfect as the day they finished. You simply won't find this level of care anywhere else in Palm Coast."</p>
+        <div class="tc-auth">
+          <div class="tc-av">M</div>
+          <div>
+            <div class="tc-name">Michelle R.</div>
+            <div class="tc-sub">Palm Coast, FL — Master Bath + Walk-In Shower</div>
+          </div>
+        </div>
+      </div>
+      <div class="tc reveal">
+        <div class="tc-stars">★★★★★</div>
+        <p class="tc-body">"Our kitchen backsplash and pool surround travertine are flawless. Jeff helped us choose large-format porcelain that handles the Florida heat and salt air beautifully — still looking perfect after three seasons. They ran on schedule, respected our home, and left the site spotless each day."</p>
+        <div class="tc-auth">
+          <div class="tc-av">D</div>
+          <div>
+            <div class="tc-name">David &amp; Sarah K.</div>
+            <div class="tc-sub">Flagler Beach, FL — Kitchen Backsplash + Pool Deck</div>
+          </div>
+        </div>
+      </div>
+      <div class="tc reveal">
+        <div class="tc-stars">★★★★★</div>
+        <p class="tc-body">"We've hired many contractors over the years — Jeff and Gina are in a completely different league. Their knowledge of Florida moisture issues, material compatibility, and substrate prep saved us from a costly mistake a previous contractor would have made. Marble floors throughout the entire first floor and I couldn't be happier."</p>
+        <div class="tc-auth">
+          <div class="tc-av">T</div>
+          <div>
+            <div class="tc-name">Tom B.</div>
+            <div class="tc-sub">St. Augustine, FL — Whole-Home Marble Installation</div>
+          </div>
+        </div>
+      </div>
+      <div class="tc reveal">
+        <div class="tc-stars">★★★★★</div>
+        <p class="tc-body">"Gina guided us through every material decision with real expertise — not a sales pitch. We ended up with a contemporary 32"×32" porcelain floor that completely transformed our open-plan living area. The installation was immaculate, done on time, and the price was exactly what they quoted. We're already planning the lanai."</p>
+        <div class="tc-auth">
+          <div class="tc-av">L</div>
+          <div>
+            <div class="tc-name">Linda &amp; Robert M.</div>
+            <div class="tc-sub">Palm Coast, FL — Living Room + Dining Tile</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ PRICING ═══ -->
+<section id="booking" style="background:var(--bg-lt);">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow" style="justify-content:center;">Book Online</div>
+      <h2 class="h2" style="margin-bottom:12px;">Transparent <span style="color:var(--pr);">Pricing</span>, No Surprises</h2>
+      <p class="body">Choose a service and book directly. Every project begins with an on-site assessment where Jeff or Gina deliver a precise written estimate — no vague ballpark figures, no sales pressure.</p>
+    </div>
+    <div class="price-grid">
+      <div class="price-card reveal">
+        <div class="pc-ico"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg></div>
+        <div class="pc-name">Floor Tiling</div>
+        <div class="pc-time"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 1 hour consultation</div>
+        <div class="pc-free">FREE</div>
+        <div class="pc-sub">Free estimates — always</div>
+        <ul class="pc-list">
+          <li>On-site space measurement</li>
+          <li>Tile &amp; stone material recommendations</li>
+          <li>Itemized written estimate</li>
+          <li>Layout &amp; pattern options presented</li>
+          <li>Florida-specific material guidance</li>
+          <li>No obligation, no sales pressure</li>
+        </ul>
+        <a href="#contact" class="btn-out" style="width:100%; justify-content:center;">Book Consultation →</a>
+      </div>
+      <div class="price-card featured reveal">
+        <div class="pc-badge">Most Popular</div>
+        <div class="pc-ico"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg></div>
+        <div class="pc-name">Kitchen Tiling</div>
+        <div class="pc-time"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 1 hr 30 min visit</div>
+        <div class="pc-price"><sup>$</sup>250</div>
+        <div class="pc-sub">Starting price · Final quote after site visit</div>
+        <ul class="pc-list">
+          <li>Full backsplash design &amp; installation</li>
+          <li>Large-format floor tile (up to 48")</li>
+          <li>Grease &amp; moisture-resistant materials</li>
+          <li>Custom pattern layout planning</li>
+          <li>Premium grout &amp; sealing included</li>
+          <li>Island surround tile available</li>
+        </ul>
+        <a href="#contact" class="btn-pr" style="width:100%; justify-content:center;">Book Kitchen Consult →</a>
+      </div>
+      <div class="price-card reveal">
+        <div class="pc-ico"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M4 12V6a2 2 0 014 0v1"/><rect x="2" y="12" width="20" height="4" rx="1"/><path d="M6 20v-4M18 20v-4"/></svg></div>
+        <div class="pc-name">Bathroom Renovation</div>
+        <div class="pc-time"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2 hour consultation</div>
+        <div class="pc-price"><sup>$</sup>350</div>
+        <div class="pc-sub">Starting price · Full scope quoted on-site</div>
+        <ul class="pc-list">
+          <li>Complete bathroom transformation</li>
+          <li>Waterproof membrane system (standard)</li>
+          <li>Floor-to-ceiling tile feature walls</li>
+          <li>Custom shower niches &amp; bench seats</li>
+          <li>Radiant heated floor preparation</li>
+          <li>Final grout, seal &amp; client walkthrough</li>
+        </ul>
+        <a href="#contact" class="btn-out" style="width:100%; justify-content:center;">Book Bathroom Consult →</a>
+      </div>
+    </div>
+    <div class="reveal" style="text-align:center; margin-top:28px;">
+      <p style="font-size:13px; color:var(--text-l);">All prices are starting estimates. Final cost depends on project scope, materials, and square footage. <strong style="color:var(--text-m);">All estimates are free and no-obligation.</strong></p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FAQ ═══ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="faq-layout">
+      <div class="reveal">
+        <div class="eyebrow">FAQ</div>
+        <h3>Frequently Asked <span style="color:var(--pr);">Questions</span></h3>
+        <p class="body" style="margin-bottom:24px;">Everything you need to know before starting your tile or stone project in Palm Coast or Flagler County. Can't find your answer? Jeff &amp; Gina are just a call away.</p>
+        <div class="faq-cta">
+          <p>Can't find your answer? Call us directly and we'll walk you through it.</p>
+          <a href="tel:3863931166" class="btn-pr">📞 (386) 393-1166</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">What areas in Florida do you serve?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>We serve Palm Coast, all of Flagler County, Flagler Beach, Bunnell, Beverly Beach, Marineland, and nearby communities including St. Augustine and the Ormond Beach / Daytona Beach area. Not sure if we cover your location? Give us a call — we're happy to discuss.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you offer free estimates?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Yes — floor tiling consultations and estimates are always completely free with no obligation. For kitchen and bathroom projects, we offer a detailed on-site quote visit. We believe in transparent pricing with zero hidden surprises.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">How long does a typical tile project take?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Project timelines depend on scope and square footage. Kitchen tiling installation runs 1–5 days. Full bathroom renovations generally take 3–7 days including full waterproofing, tile install, and the required grout cure time before sealing. For whole-home or large commercial projects, we provide a detailed phased schedule during your free consultation.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">What types of tile and stone do you work with?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>We work with all major tile and stone formats — porcelain (including large-format slabs), ceramic, natural marble, travertine, granite, quartz, limestone, slate, and decorative mosaics. We source premium materials from trusted suppliers and can help you select the perfect option for your budget and style.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Are you licensed and insured in Florida?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Absolutely. Palm Coast Stone &amp; Tile is fully licensed and insured in the State of Florida. All work is performed in compliance with Florida building codes. Jeff &amp; Gina personally ensure every project meets or exceeds those requirements — protecting your home's value and your peace of mind.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">What's the best tile for Florida's humid climate?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>For Florida's humidity and coastal conditions, we recommend porcelain or vitrified tiles — they're non-porous, moisture-resistant, and highly durable. For outdoor spaces and pool surrounds, textured slip-resistant finishes are essential. We always specify vapor barriers, waterproofing membranes, and mold-resistant grout as standard practice.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you offer a satisfaction guarantee?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Yes — 100% satisfaction is our unconditional promise. We've completed over 200 projects across Palm Coast and Flagler County and we stand behind every single one. If you're not completely satisfied with the finished result, we'll return and make it right — no questions asked, no arguments, no invoice.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Do you work on commercial projects?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Yes. Palm Coast Stone &amp; Tile works with both residential homeowners and commercial clients across Flagler County and North Florida. We've completed tile installations in retail spaces, offices, restaurants, and hospitality venues. Contact us to discuss your commercial scope.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q" onclick="toggleFaq(this)">Can you match existing tile or blend with current flooring?<span class="faq-icon">+</span></button>
+          <div class="faq-a"><p>Often, yes. Jeff &amp; Gina have extensive experience sourcing discontinued tile lines and closely matching existing formats, textures, and grout colors. Bring us a sample or a photo and we'll do our best to find the closest possible match.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="eyebrow">Get In Touch</div>
+        <h2 class="h2" style="margin-bottom:12px;">Ready to <span style="color:var(--pr);">Transform</span> Your Space?</h2>
+        <p class="body" style="margin-bottom:32px;">Start with a free, no-obligation site visit. Jeff or Gina will come to your home, assess your space, discuss your vision, and deliver a detailed written estimate — typically within 24–48 hours. No call centers, no middlemen. You talk directly to the people doing the work.</p>
+        <div class="cdet">
+          <div class="ico-box ico-pr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.06 2.18 2 2 0 012.06 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg></div>
+          <div><div class="cdet-lbl">Phone</div><div class="cdet-val"><a href="tel:3863931166">(386) 393-1166</a></div></div>
+        </div>
+        <div class="cdet">
+          <div class="ico-box ico-pr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+          <div><div class="cdet-lbl">Email</div><div class="cdet-val"><a href="mailto:palmcoasttile@outlook.com">palmcoasttile@outlook.com</a></div></div>
+        </div>
+        <div class="cdet">
+          <div class="ico-box ico-pr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg></div>
+          <div><div class="cdet-lbl">Website</div><div class="cdet-val"><a href="https://www.coaststonetile.net" target="_blank" rel="noopener">coaststonetile.net</a></div></div>
+        </div>
+        <div class="cdet">
+          <div class="ico-box ico-pr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div>
+            <div class="cdet-lbl">Location</div>
+            <div class="cdet-val">Palm Coast, Florida 32164<br><span style="font-size:12px; color:var(--text-l); font-weight:400;">Serving all of Flagler County &amp; North Florida</span></div>
+          </div>
+        </div>
+        <div class="cdet" style="border-bottom:none">
+          <div class="ico-box ico-pr"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <div>
+            <div class="cdet-lbl">Response Time</div>
+            <div class="cdet-val">Same-day response<br><span style="font-size:12px; color:var(--text-l); font-weight:400;">Mon–Sat · We respond to every inquiry personally</span></div>
+          </div>
+        </div>
+        <div class="owners-badge">
+          <div class="ob-lbl">Your Personal Contacts</div>
+          <div class="ob-name">Jeff &amp; Gina Herbert</div>
+          <div class="ob-title">Owners · Palm Coast Stone &amp; Tile · Est. 2006</div>
+        </div>
+      </div>
+      <div class="form-panel reveal">
+        <div style="font-family:'Oswald',sans-serif; font-size:22px; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; color:var(--dark); margin-bottom:6px;">Request a Free Consultation</div>
+        <div style="font-size:13px; color:var(--text-l); margin-bottom:26px;">Fill in your details and Jeff or Gina will respond personally — usually the same day, Mon–Sat.</div>
+        <form id="cf">
+          <div class="fgrid">
+            <div class="ff"><label>First Name</label><input type="text" placeholder="John" required></div>
+            <div class="ff"><label>Last Name</label><input type="text" placeholder="Smith" required></div>
+            <div class="ff"><label>Phone Number</label><input type="tel" placeholder="(386) 000-0000"></div>
+            <div class="ff"><label>Email Address</label><input type="email" placeholder="john@email.com" required></div>
+            <div class="ff full">
+              <label>Service Needed</label>
+              <select>
+                <option value="">Select a service...</option>
+                <option>Custom Tile Installation</option>
+                <option>Luxury Bathroom / Walk-In Shower</option>
+                <option>Natural Stone Fabrication</option>
+                <option>Kitchen Backsplash &amp; Flooring</option>
+                <option>Outdoor Patio / Pool Deck</option>
+                <option>Design Consultation</option>
+                <option>Commercial Project</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="ff full">
+              <label>Project Description</label>
+              <textarea placeholder="Describe your project — space, materials, style preferences, timeline..."></textarea>
+            </div>
+          </div>
+          <button type="submit" class="btn-pr" id="fbtn" style="width:100%; justify-content:center; padding:15px; font-size:14px; border-radius:var(--rl);">
+            Send My Consultation Request →
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:16px;">
+          <svg width="32" height="36" viewBox="0 0 220 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="fg2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#e02d1b"/><stop offset="100%" stop-color="#f7b731"/>
+              </linearGradient>
+              <clipPath id="lc2"><polygon points="18,58 110,20 110,202 18,222"/></clipPath>
+              <clipPath id="rc2"><polygon points="110,20 202,58 202,222 110,202"/></clipPath>
+            </defs>
+            <polygon points="18,58 110,20 110,202 18,222" fill="url(#fg2)"/>
+            <g clip-path="url(#lc2)" stroke="rgba(255,255,255,0.25)" stroke-width="2" fill="none">
+              <line x1="10" y1="82" x2="118" y2="68"/><line x1="10" y1="108" x2="118" y2="94"/>
+              <line x1="10" y1="134" x2="118" y2="120"/><line x1="10" y1="160" x2="118" y2="146"/>
+            </g>
+            <polygon points="110,20 202,58 202,222 110,202" fill="#b8c4cc"/>
+            <g clip-path="url(#rc2)" stroke="#dce8ec" stroke-width="2">
+              <polygon points="114,28 158,38 162,68 132,74 114,52" fill="#94a8b4"/>
+              <polygon points="132,74 162,68 166,98 140,108 136,102" fill="#a0b4c0"/>
+              <polygon points="114,108 136,102 139,132 116,142 110,126" fill="#9aaebc"/>
+            </g>
+            <line x1="110" y1="20" x2="110" y2="202" stroke="rgba(255,255,255,0.4)" stroke-width="1.5"/>
+            <polygon points="18,58 110,20 202,58" fill="rgba(255,255,255,0.12)"/>
+          </svg>
+          <div>
+            <div style="font-family:'Oswald',sans-serif; font-size:17px; font-weight:700; color:#fff; text-transform:uppercase; letter-spacing:0.05em;">Palm Coast Stone &amp; Tile</div>
+            <div style="font-size:9px; letter-spacing:0.2em; text-transform:uppercase; color:rgba(255,255,255,0.32);">Flagler County · Est. 2006</div>
+          </div>
+        </div>
+        <p style="font-size:13.5px; font-weight:300; color:rgba(255,255,255,0.42); line-height:1.7; max-width:270px; margin-bottom:16px;">Jeff &amp; Gina Herbert have called Palm Coast home since 2006 — building a tile and stone business on craftsmanship, honesty, and a deep respect for the Florida homes they work in. 200+ projects. Zero compromises.</p>
+        <a href="tel:3863931166" style="font-size:14px; font-weight:700; color:var(--gold); display:block; margin-bottom:4px;">(386) 393-1166</a>
+        <a href="mailto:palmcoasttile@outlook.com" style="font-size:13px; color:rgba(255,255,255,0.4);">palmcoasttile@outlook.com</a>
+      </div>
+      <div>
+        <div class="foot-col-h">Services</div>
+        <ul class="foot-ul">
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#services">Custom Tile Installation</a></li>
+          <li><a href="#services">Luxury Bathrooms</a></li>
+          <li><a href="#services">Natural Stone</a></li>
+          <li><a href="#booking">Pricing &amp; Booking</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#gallery">Portfolio</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-col-h">Service Areas</div>
+        <ul class="foot-ul">
+          <li><a href="#areas">Palm Coast</a></li>
+          <li><a href="#areas">Flagler Beach</a></li>
+          <li><a href="#areas">Bunnell</a></li>
+          <li><a href="#areas">Beverly Beach</a></li>
+          <li><a href="#areas">St. Augustine</a></li>
+          <li><a href="#areas">Ormond Beach</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="foot-col-h">Contact &amp; Legal</div>
+        <ul class="foot-ul" style="margin-bottom:18px;">
+          <li><a href="tel:3863931166">(386) 393-1166</a></li>
+          <li><a href="mailto:palmcoasttile@outlook.com">palmcoasttile@outlook.com</a></li>
+          <li><a href="https://www.coaststonetile.net" target="_blank">coaststonetile.net</a></li>
+          <li><a href="#">Palm Coast, FL 32164</a></li>
+        </ul>
+        <div class="foot-lic">🛡 FL State Licensed &amp; Insured</div>
+        <div style="font-size:11.5px; color:rgba(255,255,255,0.28); margin-top:10px; line-height:1.6;">Flagler County Registered<br>Family-Owned Since 2006<br>Serving North Florida</div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div style="font-size:12px; color:rgba(255,255,255,0.28);">© 2026 Palm Coast Stone &amp; Tile — Jeff &amp; Gina Herbert. All rights reserved.</div>
+      <div style="font-size:12px; color:rgba(255,255,255,0.28);">Palm Coast, Florida 32164</div>
+      <a href="tel:3863931166" style="font-size:13.5px; font-weight:700; color:var(--gold);">(386) 393-1166</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Nav scroll highlight
+  const navEl = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    navEl.style.boxShadow = window.scrollY > 20 ? '0 4px 20px rgba(0,0,0,0.14)' : '0 2px 12px rgba(0,0,0,0.07)';
+  }, { passive: true });
+
+  // Active nav link on scroll
+  const sections = document.querySelectorAll('section[id], div[id]');
+  const navLinks = document.querySelectorAll('.nav-ul li a');
+  window.addEventListener('scroll', () => {
+    let cur = '';
+    sections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) cur = s.id; });
+    navLinks.forEach(a => {
+      const li = a.parentElement;
+      li.classList.toggle('active', a.getAttribute('href') === '#' + cur || (cur === '' && a.getAttribute('href') === '#'));
+    });
+  }, { passive: true });
+
+  // Scroll reveal
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Stagger grid children
+  ['svc-grid','proc-grid','test-grid','areas-grid','gallery-bento','ds-grid','price-grid'].forEach(cls => {
+    const g = document.querySelector('.' + cls);
+    if (!g) return;
+    [...g.children].forEach((c, i) => c.style.transitionDelay = (i * 0.08) + 's');
+  });
+
+  // Smooth scroll
+  document.querySelectorAll('a[href^="#"]').forEach(a => {
+    a.addEventListener('click', e => {
+      const t = document.querySelector(a.getAttribute('href'));
+      if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    });
+  });
+
+  // Lightbox
+  document.querySelectorAll('.gi').forEach(gi => {
+    gi.addEventListener('click', () => {
+      const src = gi.dataset.src; if (!src) return;
+      document.getElementById('lb-img').src = src;
+      document.getElementById('lb').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+  function closeLb() {
+    document.getElementById('lb').classList.remove('open');
+    document.getElementById('lb-img').src = '';
+    document.body.style.overflow = '';
+  }
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+
+  // FAQ accordion
+  function toggleFaq(btn) {
+    const isOpen = btn.classList.contains('open');
+    document.querySelectorAll('.faq-q.open').forEach(q => {
+      q.classList.remove('open');
+      q.nextElementSibling.classList.remove('open');
+    });
+    if (!isOpen) {
+      btn.classList.add('open');
+      btn.nextElementSibling.classList.add('open');
+    }
+  }
+
+  // Form submit
+  document.getElementById('cf').addEventListener('submit', e => {
+    e.preventDefault();
+    const b = document.getElementById('fbtn');
+    b.textContent = '✓ Request Received — We\'ll Be in Touch!';
+    b.style.background = '#1d8a5e';
+    b.style.borderColor = '#1d8a5e';
+    b.disabled = true;
+  });
+</script>
+</body>
+</html>

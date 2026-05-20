@@ -1,0 +1,124 @@
+- generic [ref=e3]:
+  - region "top of page"
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - generic [ref=e14]:
+        - generic:
+          - generic:
+            - generic [ref=e19]:
+              - paragraph [ref=e24]:
+                - link "Palm Coast Tile & Stone" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.coaststonetile.net
+              - navigation "Site" [ref=e32]:
+                - list [ref=e33]:
+                  - listitem [ref=e34]:
+                    - link "About Us" [ref=e36] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/about-us
+                      - generic [ref=e38]: About Us
+                  - listitem [ref=e39]:
+                    - link "Let's Talk" [ref=e41] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net
+                      - generic [ref=e43]: Let's Talk
+                  - listitem [ref=e44]:
+                    - link "FAQ" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/faq
+                      - generic [ref=e48]: FAQ
+                  - listitem [ref=e49]:
+                    - link "Portfolio" [ref=e51] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/portfolio
+                      - generic [ref=e53]: Portfolio
+                  - listitem [ref=e54]:
+                    - link "Book Online" [ref=e56] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/book-online
+                      - generic [ref=e58]: Book Online
+                  - listitem [ref=e59]:
+                    - link "Blog" [ref=e61] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/blog
+                      - generic [ref=e63]: Blog
+            - button [ref=e67] [cursor=pointer]:
+              - img [ref=e69]
+    - main [ref=e72]:
+      - generic [ref=e77]:
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e87]:
+                - generic:
+                  - generic:
+                    - heading "Crafting Timeless Spaces" [level=2] [ref=e91]
+                    - paragraph [ref=e92]: At Palm Coast Tile and Stone, we understand that every space has a unique story waiting to be brought to life. Our team specializes in transforming living areas into functional and timeless spaces, adding a touch of elegance to each corner. We are committed to turning your vision into reality, creating spaces that reflect your individual style and comfort.
+              - generic [ref=e93]:
+                - generic:
+                  - generic:
+                    - generic [ref=e102]:
+                      - generic:
+                        - generic:
+                          - heading "Meet Our Expert Team" [level=2] [ref=e106]
+                          - generic [ref=e107]:
+                            - generic:
+                              - generic:
+                                - paragraph [ref=e111]:
+                                  - generic [ref=e112]: John Smith
+                                - paragraph [ref=e113]: Founder & Lead Contractor
+                                - paragraph [ref=e114]: With a passion for transforming spaces, John is the visionary behind Palm Coast Tile and Stone. His keen eye for detail and commitment to unparalleled craftsmanship drives our team to create homes and commercial spaces that exude quality and sophistication.
+                                - paragraph [ref=e115]:
+                                  - link "LinkedIn" [ref=e118] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/company/wix-com
+                    - generic [ref=e128]:
+                      - generic:
+                        - generic:
+                          - paragraph [ref=e132]:
+                            - generic [ref=e133]: Emily Davis
+                          - paragraph [ref=e134]: Design Specialist
+                          - paragraph [ref=e135]:
+                            - generic [ref=e136]: Bringing creativity and innovation to every project, Emily adds a unique flair to our designs. Her expertise in blending functionality with aesthetics ensures that each space is both beautiful and practical.
+                          - paragraph [ref=e137]:
+                            - link "LinkedIn" [ref=e140] [cursor=pointer]:
+                              - /url: https://www.linkedin.com/company/wix-com
+                    - generic [ref=e146]:
+                      - generic:
+                        - generic:
+                          - generic [ref=e150]:
+                            - generic:
+                              - generic:
+                                - paragraph [ref=e154]:
+                                  - generic [ref=e155]: Michael Johnson
+                                - paragraph [ref=e156]: Project Manager
+                                - paragraph [ref=e157]: With a focus on precision and quality, Michael oversees the construction process with meticulous attention to detail. His dedication to excellence ensures that every project is completed to the highest standards.
+                                - paragraph [ref=e158]:
+                                  - link "LinkedIn" [ref=e161] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/company/wix-com
+                          - link "Explore Our Team" [ref=e163] [cursor=pointer]:
+                            - /url: https://www.coaststonetile.net
+                            - generic [ref=e164]: Explore Our Team
+    - contentinfo [ref=e165]:
+      - generic [ref=e171]:
+        - generic:
+          - generic:
+            - generic [ref=e176]:
+              - generic [ref=e177]:
+                - img "Digital art exhibit" [ref=e182]
+                - generic:
+                  - generic:
+                    - paragraph [ref=e183]:
+                      - link "PALM COAST TILE & STONE" [ref=e185] [cursor=pointer]:
+                        - /url: https://www.coaststonetile.net
+                    - paragraph [ref=e186]: 386-393-1166
+                    - paragraph [ref=e187]: Palm Coast Fla. 32164
+                    - paragraph [ref=e188]:
+                      - link "palmcoasttile@outlook.com" [ref=e190] [cursor=pointer]:
+                        - /url: https://www.twitter.com/wix
+                    - paragraph [ref=e191]: coaststonetile.com
+              - generic [ref=e192]:
+                - img "Leaf Pattern Design" [ref=e197]
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph [ref=e198]: Jeff & Gina Herbert (386)-393-1166
+                      - paragraph [ref=e199]
+            - paragraph [ref=e209]:
+              - generic [ref=e210]:
+                - text: © 2035 by M. Giordano. Powered and secured by
+                - link "Wix" [ref=e212] [cursor=pointer]:
+                  - /url: https://manage.wix.com/account/websites?referralAdditionalInfo=Route
+  - region "bottom of page"

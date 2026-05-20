@@ -1,0 +1,249 @@
+- generic [ref=e3]:
+  - region "top of page"
+  - generic [ref=e10]:
+    - banner [ref=e11]:
+      - generic [ref=e14]:
+        - generic:
+          - generic:
+            - generic [ref=e19]:
+              - paragraph [ref=e24]:
+                - link "Palm Coast Tile & Stone" [ref=e26] [cursor=pointer]:
+                  - /url: https://www.coaststonetile.net
+              - navigation "Site" [ref=e32]:
+                - list [ref=e33]:
+                  - listitem [ref=e34]:
+                    - link "About Us" [ref=e36] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/about-us
+                      - generic [ref=e38]: About Us
+                  - listitem [ref=e39]:
+                    - link "Let's Talk" [ref=e41] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net
+                      - generic [ref=e43]: Let's Talk
+                  - listitem [ref=e44]:
+                    - link "FAQ" [ref=e46] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/faq
+                      - generic [ref=e48]: FAQ
+                  - listitem [ref=e49]:
+                    - link "Portfolio" [ref=e51] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/portfolio
+                      - generic [ref=e53]: Portfolio
+                  - listitem [ref=e54]:
+                    - link "Book Online" [ref=e56] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/book-online
+                      - generic [ref=e58]: Book Online
+                  - listitem [ref=e59]:
+                    - link "Blog" [ref=e61] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/blog
+                      - generic [ref=e63]: Blog
+            - button [ref=e67] [cursor=pointer]:
+              - img [ref=e69]
+    - main [ref=e72]:
+      - generic [ref=e77]:
+        - generic:
+          - generic:
+            - generic:
+              - generic [ref=e92]:
+                - generic:
+                  - generic:
+                    - heading "Elegant Tile and Stone Solutions" [level=1] [ref=e94]
+                    - paragraph [ref=e95]: Palm Coast Tile and Stone is dedicated to providing innovative and elegant tile and stone solutions for residential and commercial spaces. We specialize in turning ordinary areas into exceptional and functional living spaces tailored to your unique style and preferences.
+                    - link "Discover" [ref=e97] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net
+                      - generic [ref=e98]: Discover
+              - generic [ref=e122]:
+                - generic:
+                  - generic:
+                    - heading "Our Expertise" [level=2] [ref=e126]
+                    - paragraph [ref=e127]: With 19 years of experience, Palm Coast Tile and Stone has evolved into a leading tile contracting business known for its exceptional craftsmanship and attention to detail. We are committed to transforming spaces with high-quality tile and stone solutions.
+                    - paragraph [ref=e128]: Crafting beautiful living spaces tailored to your needs and preferences is at the heart of what we do. We take pride in delivering outstanding results that exceed expectations.
+                    - link "About Us" [ref=e130] [cursor=pointer]:
+                      - /url: https://www.coaststonetile.net/about-us
+                      - generic [ref=e131]: About Us
+              - generic [ref=e141]:
+                - generic:
+                  - generic:
+                    - generic [ref=e152]:
+                      - generic:
+                        - generic:
+                          - heading "Our Offerings" [level=2] [ref=e156]
+                          - paragraph [ref=e157]: Explore our comprehensive range of services designed to elevate the aesthetic and functionality of your space. From kitchen and bathroom renovations to stunning tile and stone installations, we have you covered.
+                          - link "Consult" [ref=e159] [cursor=pointer]:
+                            - /url: https://www.coaststonetile.net
+                            - generic [ref=e160]: Consult
+                    - generic [ref=e166]:
+                      - generic:
+                        - generic:
+                          - generic [ref=e170]:
+                            - generic:
+                              - generic:
+                                - img [ref=e174]
+                                - heading "Design Inspiration" [level=3] [ref=e177]:
+                                  - generic [ref=e178]: Design Inspiration
+                                - paragraph [ref=e179]: Let us guide you through the process of creating inspirational living spaces with our expert design consultation services.
+                          - generic [ref=e180]:
+                            - generic:
+                              - generic:
+                                - img [ref=e184]
+                                - heading "Renovation Planning" [level=3] [ref=e187]:
+                                  - generic [ref=e188]: Renovation Planning
+                                - paragraph [ref=e189]: Seamless Execution
+                    - generic [ref=e195]:
+                      - generic:
+                        - generic:
+                          - generic [ref=e199]:
+                            - generic:
+                              - generic:
+                                - img [ref=e203]
+                                - heading "Custom Creations" [level=3] [ref=e206]:
+                                  - generic [ref=e207]: Custom Creations
+                                - paragraph [ref=e208]: We specialize in tailoring furniture and decor to complement your space's new design, adding a touch of elegance and sophistication.
+                          - generic [ref=e209]:
+                            - generic:
+                              - generic:
+                                - img [ref=e213]
+                                - heading "Project Management" [level=3] [ref=e216]:
+                                  - generic [ref=e217]: Project Management
+                                - paragraph [ref=e218]: Our dedicated team manages every aspect of the remodeling project, ensuring a seamless and successful outcome.
+              - generic [ref=e219]:
+                - generic:
+                  - generic:
+                    - heading "Transforming Spaces" [level=2] [ref=e223]
+                    - generic [ref=e228]:
+                      - generic [ref=e229]:
+                        - generic:
+                          - generic:
+                            - paragraph [ref=e233]: Exquisite Craftsmanship
+                            - paragraph [ref=e234]:
+                              - generic [ref=e235]: Client Satisfaction
+                      - generic [ref=e236]:
+                        - generic:
+                          - generic:
+                            - paragraph [ref=e240]: 100% Satisfaction
+                            - paragraph [ref=e241]:
+                              - generic [ref=e242]: Quality Workmanship
+                      - generic [ref=e243]:
+                        - generic:
+                          - generic:
+                            - paragraph [ref=e247]: 200+ Projects
+                            - paragraph [ref=e248]:
+                              - generic [ref=e249]: Completed Projects
+                      - generic [ref=e250]:
+                        - generic:
+                          - generic:
+                            - paragraph [ref=e254]: 19+
+                            - paragraph [ref=e255]:
+                              - generic [ref=e256]: Years of Experience
+              - generic [ref=e266]:
+                - generic:
+                  - generic:
+                    - heading "Styles" [level=2] [ref=e279]
+                    - generic [ref=e285]:
+                      - generic:
+                        - generic:
+                          - heading "Contemporary" [level=3] [ref=e289]:
+                            - generic [ref=e290]: Contemporary
+                          - paragraph [ref=e291]: Crafting contemporary spaces that exude elegance and functionality to meet the demands of modern living.
+                          - heading "Rustic" [level=3] [ref=e292]:
+                            - generic [ref=e293]: Rustic
+                          - paragraph [ref=e294]: Bringing warmth and character to spaces with rustic design elements, creating a cozy and inviting ambiance.
+                          - heading "Timeless" [level=3] [ref=e295]:
+                            - generic [ref=e296]: Timeless
+                          - paragraph [ref=e297]: Embracing timeless design concepts to create enduring and sophisticated spaces that stand the test of time.
+                          - link "Explore" [ref=e299] [cursor=pointer]:
+                            - /url: https://www.coaststonetile.net
+                            - generic [ref=e300]: Explore
+              - generic [ref=e310]:
+                - generic:
+                  - generic:
+                    - generic [ref=e321]:
+                      - generic:
+                        - generic:
+                          - heading "Approach" [level=2] [ref=e325]
+                          - paragraph [ref=e326]:
+                            - generic [ref=e327]: Our Approach
+                    - generic [ref=e337]:
+                      - generic:
+                        - generic:
+                          - paragraph [ref=e339]: "01"
+                          - heading "Conceptualization" [level=3] [ref=e340]
+                          - paragraph [ref=e341]: Understanding Your Vision
+                    - generic [ref=e352]:
+                      - generic:
+                        - generic:
+                          - paragraph [ref=e354]: "02"
+                          - heading "Craftsmanship" [level=3] [ref=e355]
+                          - paragraph [ref=e356]: Exemplary Craftsmanship
+                    - generic [ref=e367]:
+                      - generic:
+                        - generic:
+                          - paragraph [ref=e369]: "03"
+                          - heading "Personalization" [level=3] [ref=e370]
+                          - paragraph [ref=e371]: Tailoring Every Detail
+                    - generic [ref=e382]:
+                      - generic:
+                        - generic:
+                          - paragraph [ref=e384]: "04"
+                          - heading "Client Care" [level=3] [ref=e385]
+                          - paragraph [ref=e386]: Dedicated Customer Support
+              - generic [ref=e387]:
+                - generic:
+                  - generic:
+                    - generic [ref=e396]:
+                      - generic:
+                        - generic:
+                          - heading "Client Stories" [level=2] [ref=e400]
+                          - paragraph [ref=e401]: Discover what our clients have to say about their experience with Palm Coast Tile and Stone.
+                    - generic [ref=e407]:
+                      - generic:
+                        - generic:
+                          - img "5 out of 5" [ref=e413]
+                          - blockquote [ref=e420]: “Palm Coast Tile and Stone transformed our space into a stunning masterpiece. Their attention to detail and craftsmanship is truly remarkable.”
+                          - paragraph [ref=e421]: Samantha Robertson
+                          - img "5 out of 5" [ref=e424]
+                          - blockquote [ref=e431]: “We are thrilled with the outcome of our project. Palm Coast Tile and Stone's team was professional and exceeded our expectations.”
+                          - paragraph [ref=e432]: Jack and Emily Taylor
+                          - img "5 out of 5" [ref=e435]
+                          - blockquote [ref=e442]: “Exceptional service and stunning results. Palm Coast Tile and Stone truly understands the essence of home transformation.”
+                          - paragraph [ref=e443]: Olivia and Michael Evans
+              - generic [ref=e444]:
+                - generic:
+                  - generic:
+                    - heading "Our Partners" [level=2] [ref=e457]
+                    - generic [ref=e463]:
+                      - generic:
+                        - generic:
+                          - img [ref=e471]
+                          - img [ref=e483]
+                          - img [ref=e500]
+                          - img [ref=e513]
+    - contentinfo [ref=e525]:
+      - generic [ref=e531]:
+        - generic:
+          - generic:
+            - generic [ref=e536]:
+              - generic [ref=e537]:
+                - img "Digital art exhibit" [ref=e542]
+                - generic:
+                  - generic:
+                    - paragraph [ref=e543]:
+                      - link "PALM COAST TILE & STONE" [ref=e545] [cursor=pointer]:
+                        - /url: https://www.coaststonetile.net
+                    - paragraph [ref=e546]: 386-393-1166
+                    - paragraph [ref=e547]: Palm Coast Fla. 32164
+                    - paragraph [ref=e548]:
+                      - link "palmcoasttile@outlook.com" [ref=e550] [cursor=pointer]:
+                        - /url: https://www.twitter.com/wix
+                    - paragraph [ref=e551]: coaststonetile.com
+              - generic [ref=e552]:
+                - img "Leaf Pattern Design" [ref=e557]
+                - generic:
+                  - generic:
+                    - generic:
+                      - paragraph [ref=e558]: Jeff & Gina Herbert (386)-393-1166
+                      - paragraph [ref=e559]
+            - paragraph [ref=e569]:
+              - generic [ref=e570]:
+                - text: © 2035 by M. Giordano. Powered and secured by
+                - link "Wix" [ref=e572] [cursor=pointer]:
+                  - /url: https://manage.wix.com/account/websites?referralAdditionalInfo=Route
+  - region "bottom of page"

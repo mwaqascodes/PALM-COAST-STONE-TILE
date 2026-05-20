@@ -1,0 +1,252 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - link "Unsplash Home" [ref=e8] [cursor=pointer]:
+      - /url: /
+      - img "Unsplash Home" [ref=e9]
+    - generic [ref=e11]:
+      - link "Log in / Sign up" [ref=e12] [cursor=pointer]:
+        - /url: /login?referrer=%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape
+        - img [ref=e13]
+      - button "Language" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - button "Menu" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - navigation [ref=e23]:
+        - search "Find visuals sitewide" [ref=e25]:
+          - button "Search Unsplash" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+          - combobox [ref=e29]:
+            - searchbox "Search Unsplash" [ref=e30]: marble stone floor
+            - listbox
+          - button "Clear" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+          - button "Visual search" [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+      - generic [ref=e39]:
+        - generic [ref=e45]:
+          - list [ref=e46]:
+            - listitem [ref=e47]:
+              - link "Photos 3.5k":
+                - /url: /s/photos/marble-stone-floor?orientation=landscape
+                - img
+                - text: Photos
+                - generic: 3.5k
+            - listitem [ref=e48]:
+              - link "Illustrations 12" [ref=e49] [cursor=pointer]:
+                - /url: /s/illustrations/marble-stone-floor?orientation=landscape
+                - img [ref=e50]
+                - text: Illustrations
+                - generic [ref=e52]: "12"
+            - listitem [ref=e53]:
+              - button "More" [ref=e54] [cursor=pointer]
+          - button "Filters" [ref=e56] [cursor=pointer]:
+            - img [ref=e58]
+            - text: Filters
+        - generic [ref=e60]:
+          - heading "Marble stone floor" [level=1] [ref=e62]
+          - generic [ref=e64]:
+            - button "scroll list to the right" [ref=e66] [cursor=pointer]:
+              - img [ref=e67]
+            - generic [ref=e70]:
+              - link "marble" [ref=e72] [cursor=pointer]:
+                - /url: /s/photos/marble?orientation=landscape
+              - link "wallpaper" [ref=e74] [cursor=pointer]:
+                - /url: /s/photos/wallpaper?orientation=landscape
+              - link "texture" [ref=e76] [cursor=pointer]:
+                - /url: /s/photos/texture?orientation=landscape
+              - link "marble wallpaper" [ref=e78] [cursor=pointer]:
+                - /url: /s/photos/marble-wallpaper?orientation=landscape
+              - link "marble background" [ref=e80] [cursor=pointer]:
+                - /url: /s/photos/marble-background?orientation=landscape
+              - link "pattern" [ref=e82] [cursor=pointer]:
+                - /url: /s/photos/pattern?orientation=landscape
+              - link "background" [ref=e84] [cursor=pointer]:
+                - /url: /s/photos/background?orientation=landscape
+              - link "grey" [ref=e86] [cursor=pointer]:
+                - /url: /s/photos/grey?orientation=landscape
+              - link "stone" [ref=e88] [cursor=pointer]:
+                - /url: /s/photos/stone?orientation=landscape
+              - link "white" [ref=e90] [cursor=pointer]:
+                - /url: /s/photos/white?orientation=landscape
+              - link "abstract background" [ref=e92] [cursor=pointer]:
+                - /url: /s/photos/abstract-background?orientation=landscape
+              - link "backdrop" [ref=e94] [cursor=pointer]:
+                - /url: /s/photos/backdrop?orientation=landscape
+        - generic [ref=e96]:
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - figure [ref=e102]:
+                - generic [ref=e104]:
+                  - link "a black and white marble texture background" [ref=e105]:
+                    - /url: /photos/a-black-and-white-marble-texture-background-Ya4h-T29BAs
+                    - img "a black and white marble texture background" [ref=e106]
+                  - link [ref=e107] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-black-and-white-marble-texture-background-Ya4h-T29BAs
+                    - img [ref=e108]
+              - generic [ref=e110]:
+                - heading "Sponsored images" [level=4] [ref=e111]:
+                  - generic [ref=e112]: Sponsored images
+                  - link [ref=e113] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A28a8f3bf-c757-40c6-a3b9-0842802c39d6&phrase=marble+stone+floor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e114]
+                - generic [ref=e116]:
+                  - link "Interior of empty apartment,wide room with marble floor.White with grey marble floor interior background.White marble,quartz texture. Natural pattern or abstract background." [ref=e117] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/interior-of-empty-apartment-wide-room-with-marble-floor-white-with-grey-marble-floor-gm1135767471-302264648?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3Ae6c86c57-d385-4a77-805c-994898818f04
+                    - img "Interior of empty apartment,wide room with marble floor.White with grey marble floor interior background.White marble,quartz texture. Natural pattern or abstract background." [ref=e118]
+                  - link "Closeup beige marble with natural pattern texture background. Horizontal picture." [ref=e119] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/closeup-beige-marble-with-natural-pattern-texture-background-horizontal-picture-gm1138650162-304074669?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A4023407e-9584-4e2d-b01d-2f674eedc56e
+                    - img "Closeup beige marble with natural pattern texture background. Horizontal picture." [ref=e120]
+                  - link "marble floor tile" [ref=e121] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/marble-floor-tile-gm1050750058-280947018?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A6cacfc44-bddc-475e-b5c1-f717cf92e36b
+                    - img "marble floor tile" [ref=e122]
+                  - link "Gray marble tiles seamless floor texture for design." [ref=e123] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/photo/gray-marble-tiles-seamless-floor-texture-for-design-gm481341912-69325537?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A3ae54827-d58f-4080-8883-15074f19b280
+                    - img "Gray marble tiles seamless floor texture for design." [ref=e124]
+                - link "Get 20% off with code UNSPLASH20" [ref=e125] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A28a8f3bf-c757-40c6-a3b9-0842802c39d6&phrase=marble+stone+floor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e126]:
+                - link "a close up of a white marble counter top" [ref=e129]:
+                  - /url: /photos/a-close-up-of-a-white-marble-counter-top-nXVXHtJiDnI
+                  - img "a close up of a white marble counter top" [ref=e130]
+              - figure [ref=e131]:
+                - generic [ref=e133]:
+                  - link "a white clock sitting on the side of a wall" [ref=e134]:
+                    - /url: /photos/a-white-clock-sitting-on-the-side-of-a-wall-lBLEbXPjhsM
+                    - img "a white clock sitting on the side of a wall" [ref=e135]
+                  - link [ref=e136] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-white-clock-sitting-on-the-side-of-a-wall-lBLEbXPjhsM
+                    - img [ref=e137]
+              - figure [ref=e139]:
+                - link "white and black abstract painting" [ref=e142]:
+                  - /url: /photos/white-and-black-abstract-painting-svZmp2l6pH8
+                  - img "white and black abstract painting" [ref=e143]
+              - figure [ref=e144]:
+                - link "gray and black painting" [ref=e147]:
+                  - /url: /photos/gray-and-black-painting-XcaAQXrhpLQ
+                  - img "gray and black painting" [ref=e148]
+              - figure [ref=e149]:
+                - link "a close up of a yellow and black umbrella" [ref=e152]:
+                  - /url: /photos/a-close-up-of-a-yellow-and-black-umbrella-Zb0s2My74mE
+                  - img "a close up of a yellow and black umbrella" [ref=e153]
+            - generic [ref=e154]:
+              - figure [ref=e155]:
+                - link "three chairs sitting on a marble floor in a room" [ref=e158]:
+                  - /url: /photos/three-chairs-sitting-on-a-marble-floor-in-a-room-v9oBtvRCKHk
+                  - img "three chairs sitting on a marble floor in a room" [ref=e159]
+              - figure [ref=e160]:
+                - link "a white marble counter top with a long shadow" [ref=e163]:
+                  - /url: /photos/a-white-marble-counter-top-with-a-long-shadow-LfU6_b3Oj4E
+                  - img "a white marble counter top with a long shadow" [ref=e164]
+              - figure [ref=e165]:
+                - link "a close up of a white marble surface" [ref=e168]:
+                  - /url: /photos/a-close-up-of-a-white-marble-surface-2yp6ICVr2VM
+                  - img "a close up of a white marble surface" [ref=e169]
+              - figure [ref=e170]:
+                - link "a close up of a white marble surface" [ref=e173]:
+                  - /url: /photos/a-close-up-of-a-white-marble-surface-7aKvziqeTfg
+                  - img "a close up of a white marble surface" [ref=e174]
+              - figure [ref=e175]:
+                - link "a close up of a white marble surface" [ref=e178]:
+                  - /url: /photos/a-close-up-of-a-white-marble-surface-fiK6v6Z4BvQ
+                  - img "a close up of a white marble surface" [ref=e179]
+              - figure [ref=e180]:
+                - generic [ref=e182]:
+                  - link "a close up view of a marbled surface" [ref=e183]:
+                    - /url: /photos/a-close-up-view-of-a-marbled-surface-I6fS3pSbk4I
+                    - img "a close up view of a marbled surface" [ref=e184]
+                  - link [ref=e185] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-close-up-view-of-a-marbled-surface-I6fS3pSbk4I
+                    - img [ref=e186]
+              - figure [ref=e188]:
+                - link "a close up of a white stone floor" [ref=e191]:
+                  - /url: /photos/a-close-up-of-a-white-stone-floor-UUXjp7cWWzI
+                  - img "a close up of a white stone floor" [ref=e192]
+              - figure [ref=e193]:
+                - link "a black and white floor with a checkered pattern" [ref=e196]:
+                  - /url: /photos/a-black-and-white-floor-with-a-checkered-pattern-hFlmM3cbP4g
+                  - img "a black and white floor with a checkered pattern" [ref=e197]
+            - generic [ref=e198]:
+              - link "On-brand and on budget images for your next campaign Learn More" [ref=e201] [cursor=pointer]:
+                - /url: https://e-10457.adzerk.net/r?e=eyJ2IjoiMS4xNCIsImF2Ijo4MjM1NTIsImF0Ijo1LCJidCI6MCwiY20iOjk0ODU5NTcsImNoIjo0NTE2MywiY2siOnt9LCJjciI6MzY0NTc4NzUxLCJkaSI6IjMxNzBhMDYxM2RhMjQyZWZhYzQ1MzRlM2E4OWQzYmMyIiwiZGoiOjAsImlpIjoiOTZkNGRiNWRhN2ZiNDQyZmEyZTg2YTkzZDYxYTM2ZTYiLCJkbSI6MywiZmMiOjUzOTcxNjg1MywiZmwiOjU1ODQ4Njg0LCJpcCI6IjE0OS40MC4yMTEuOTIiLCJudyI6MTA0NTcsInBjIjowLCJvcCI6MCwibXAiOjAsImVjIjowLCJnbSI6MCwiZXAiOm51bGwsInByIjoyMDgyODMsInJ0IjoxLCJycyI6NTAwLCJzYSI6Ijk2Iiwic2IiOiJpLTAzOWMwOTM2ODczY2VmZjA2Iiwic3AiOjM5MDYwNjgsInN0IjoxMTIxOTU0LCJ1ayI6IjNjODM1ZjZlLTFiNjgtNGI3MC04ODc3LWFjODVmYjk4ZjlmYSIsInpuIjoyNDEzNDgsInptIjpbMjQxMzQ4XSwidHMiOjE3NzkxNjQ2MDk1OTYsInBuIjoic2VhcmNoLWluLWZlZWQiLCJnciI6dHJ1ZSwiZ2MiOnRydWUsImdDIjp0cnVlLCJncyI6Im5vbmUiLCJ0eiI6IkFtZXJpY2EvTmV3X1lvcmsiLCJ1ciI6Imh0dHBzOi8vdW5zcGxhc2guY29tL3N0dWRpbyJ9&s=50QG3o7KZPvywsui-3xVXnBgMgE
+                - generic [ref=e202]:
+                  - img [ref=e204]
+                  - contentinfo [ref=e205]:
+                    - generic [ref=e206]:
+                      - generic:
+                        - img
+                      - generic [ref=e210]: On-brand and on budget images for your next campaign
+                    - generic [ref=e211]: Learn More
+              - figure [ref=e212]:
+                - generic [ref=e214]:
+                  - link "a close up of a white marble texture" [ref=e215]:
+                    - /url: /photos/a-close-up-of-a-white-marble-texture-rYnpbH9MkJQ
+                    - img "a close up of a white marble texture" [ref=e216]
+                  - link [ref=e217] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-close-up-of-a-white-marble-texture-rYnpbH9MkJQ
+                    - img [ref=e218]
+              - figure [ref=e220]:
+                - link "a close-up of a cracked surface" [ref=e223]:
+                  - /url: /photos/a-close-up-of-a-cracked-surface-2PFx5atMU2w
+                  - img "a close-up of a cracked surface" [ref=e224]
+              - figure [ref=e225]:
+                - link "a black marble tile with white lines on it" [ref=e228]:
+                  - /url: /photos/a-black-marble-tile-with-white-lines-on-it-b2DoargT_lk
+                  - img "a black marble tile with white lines on it" [ref=e229]
+              - figure [ref=e230]:
+                - link "a black and white checkered floor with a black and white checkerboard pattern" [ref=e233]:
+                  - /url: /photos/a-black-and-white-checkered-floor-with-a-black-and-white-checkerboard-pattern-6JsHB0HSOV4
+                  - img "a black and white checkered floor with a black and white checkerboard pattern" [ref=e234]
+              - figure [ref=e235]:
+                - generic [ref=e237]:
+                  - link "a black and white marble textured background" [ref=e238]:
+                    - /url: /photos/a-black-and-white-marble-textured-background-IN8BJPAlQro
+                    - img "a black and white marble textured background" [ref=e239]
+                  - link [ref=e240] [cursor=pointer]:
+                    - /url: /plus?referrer=%2Fphotos%2Fa-black-and-white-marble-textured-background-IN8BJPAlQro
+                    - img [ref=e241]
+              - figure [ref=e243]:
+                - link "Black sneakers on a red marble floor" [ref=e246]:
+                  - /url: /photos/black-sneakers-on-a-red-marble-floor-lxXDwG9X4Gs
+                  - img "Black sneakers on a red marble floor" [ref=e247]
+          - generic [ref=e250]:
+            - heading "Browse premium images on iStock | Claim your discount now" [level=2] [ref=e251]:
+              - text: Browse premium images on iStock
+              - generic [ref=e252]: "| Claim your discount now"
+            - generic [ref=e254]:
+              - link "natural emerald green,gold marble texture pattern,marble wallpaper high quality can be used as background for display or montage your top view products or mable tile." [ref=e255] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/natural-emerald-green-gold-marble-texture-pattern-marble-wallpaper-high-quality-can-gm1477944208-506347184?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3Ac27d8051-535c-4eba-bc59-07ff9e928ad9
+                - img "natural emerald green,gold marble texture pattern,marble wallpaper high quality can be used as background for display or montage your top view products or mable tile." [ref=e256]
+              - link "Background of natural cement or stone in brown colors aged and rich colors" [ref=e257] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/background-of-natural-cement-or-stone-in-brown-colors-aged-and-rich-colors-gm1436042660-477189777?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A95b685af-8735-4125-953c-9edc877f8c3c
+                - img "Background of natural cement or stone in brown colors aged and rich colors" [ref=e258]
+              - link "Black abstract background with marble texture" [ref=e259] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/black-abstract-background-with-marble-texture-gm2032162515-562116791?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3Ad264824a-7ced-45c2-aea1-21d5b4267b3d
+                - img "Black abstract background with marble texture" [ref=e260]
+              - link "Luxury quartzite stone background." [ref=e261] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/luxury-quartzite-stone-background-gm2149693470-570904979?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A4488493c-173c-47f8-9385-5c5c69da39b0
+                - img "Luxury quartzite stone background." [ref=e262]
+              - link "Gray marble rectangular tiles flooring pattern surface texture. Close-up of interior design decoration background" [ref=e263] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/gray-marble-rectangular-tiles-flooring-pattern-surface-texture-close-up-of-interior-gm1084437954-290970267?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A3c282a4e-f02e-4e14-9a96-b8b4198acef3
+                - img "Gray marble rectangular tiles flooring pattern surface texture. Close-up of interior design decoration background" [ref=e264]
+              - link "Gray marble textured background with copy space" [ref=e265] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/gray-marble-textured-background-with-copy-space-gm1474399824-504277127?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3Abe845b5a-5283-43a4-8262-2f8138b1b5d4
+                - img "Gray marble textured background with copy space" [ref=e266]
+              - link "Red marble onyx texture" [ref=e267] [cursor=pointer]:
+                - /url: https://www.istockphoto.com/photo/red-marble-onyx-texture-gm585296294-100352209?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A79d93051-f509-458e-9daf-1d180f7b7613
+                - img "Red marble onyx texture" [ref=e268]
+              - generic [ref=e269]:
+                - link "Grunge background" [ref=e270] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/photo/grunge-background-gm1446236064-484385146?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A4dbc1d43-ed59-4d4f-a7ea-6291a2aff504
+                  - img "Grunge background" [ref=e271]
+                - link "View more on iStock ↗" [ref=e272] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_bottom&utm_content=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fmarble-stone-floor%3Forientation%3Dlandscape&utm_term=marble+stone+floor%3A%3A%3A%3A3739ccd3-579e-412c-a37b-acdb86d1b22e&phrase=marble+stone+floor&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+          - button "Load more" [ref=e276] [cursor=pointer]
+          - generic [ref=e277]:
+            - link [ref=e278] [cursor=pointer]:
+              - /url: /
+              - img [ref=e279]
+            - paragraph [ref=e281]: Make something awesome
+    - generic:
+      - region "Notifications"
